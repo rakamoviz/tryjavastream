@@ -840,3 +840,734 @@ something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/ma
 2023.07.07 22:33:02 INFO  time: compiled root in 0.37s
 2023.07.07 22:33:04 INFO  compiling root (1 scala source)
 2023.07.07 22:33:04 INFO  time: compiled root in 0.31s
+2023.07.07 22:34:46 INFO  compiling root (1 scala source)
+2023.07.07 22:34:46 INFO  time: compiled root in 0.17s
+2023.07.07 22:35:23 INFO  compiling root (1 scala source)
+2023.07.07 22:35:23 INFO  time: compiled root in 0.15s
+2023.07.07 22:35:30 INFO  compiling root (1 scala source)
+2023.07.07 22:35:30 INFO  time: compiled root in 0.16s
+2023.07.07 22:35:33 INFO  compiling root (1 scala source)
+2023.07.07 22:35:33 INFO  time: compiled root in 0.16s
+2023.07.07 23:27:56 INFO  compiling root (1 scala source)
+2023.07.07 23:27:56 INFO  time: compiled root in 0.11s
+2023.07.07 23:27:59 INFO  compiling root (1 scala source)
+2023.07.07 23:27:59 INFO  time: compiled root in 52ms
+2023.07.07 23:28:08 INFO  compiling root (1 scala source)
+2023.07.07 23:28:08 INFO  time: compiled root in 29ms
+2023.07.07 23:28:12 INFO  compiling root (1 scala source)
+2023.07.07 23:28:12 INFO  time: compiled root in 0.4s
+Jul 07, 2023 11:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9446
+2023.07.07 23:31:17 INFO  compiling root (1 scala source)
+2023.07.07 23:31:17 INFO  time: compiled root in 0.1s
+2023.07.07 23:31:38 INFO  compiling root (1 scala source)
+2023.07.07 23:31:38 INFO  time: compiled root in 62ms
+2023.07.07 23:31:53 INFO  compiling root (1 scala source)
+2023.07.07 23:31:53 INFO  time: compiled root in 0.14s
+2023.07.07 23:33:21 INFO  compiling root (2 scala sources)
+2023.07.07 23:33:21 INFO  time: compiled root in 0.11s
+2023.07.07 23:33:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:32 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:32 INFO  compiling root (2 scala sources)
+2023.07.07 23:33:32 INFO  time: compiled root in 58ms
+2023.07.07 23:33:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:33:46 INFO  compiling root (2 scala sources)
+2023.07.07 23:33:46 INFO  time: compiled root in 68ms
+2023.07.07 23:33:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:21 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:21 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:21 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:23 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:27 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:28 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:30 INFO  compiling root (2 scala sources)
+2023.07.07 23:34:30 INFO  time: compiled root in 59ms
+2023.07.07 23:34:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:36 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:36 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor.State[I,T,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1326, 1326, 1346)
+2023.07.07 23:34:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:40 INFO  compiling root (2 scala sources)
+2023.07.07 23:34:40 INFO  time: compiled root in 71ms
+2023.07.07 23:34:40 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:44 INFO  compiling root (2 scala sources)
+2023.07.07 23:34:44 INFO  time: compiled root in 50ms
+2023.07.07 23:34:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor.State[I,T,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1434, 1452, 1472)
+2023.07.07 23:34:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:34:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1506, 1506, 1538)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1506, 1506, 1539)
+2023.07.07 23:35:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1506, 1506, 1532)
+2023.07.07 23:35:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:00 INFO  compiling root (2 scala sources)
+2023.07.07 23:35:00 INFO  time: compiled root in 66ms
+2023.07.07 23:35:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:34 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:50 INFO  compiling root (2 scala sources)
+2023.07.07 23:35:50 INFO  time: compiled root in 56ms
+2023.07.07 23:35:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1518, 1518, 1544)
+2023.07.07 23:35:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1518, 1518, 1544)
+2023.07.07 23:35:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1518, 1518, 1544)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T,C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1518, 1518, 1544)
+2023.07.07 23:35:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:58 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:35:58 INFO  compiling root (2 scala sources)
+2023.07.07 23:35:58 INFO  time: compiled root in 54ms
+2023.07.07 23:35:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:36:56 INFO  compiling root (2 scala sources)
+2023.07.07 23:36:56 INFO  time: compiled root in 56ms
+2023.07.07 23:36:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:20 INFO  compiling root (2 scala sources)
+2023.07.07 23:37:20 INFO  time: compiled root in 61ms
+2023.07.07 23:37:26 INFO  compiling root (2 scala sources)
+2023.07.07 23:37:26 INFO  time: compiled root in 51ms
+2023.07.07 23:37:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:36 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:39 INFO  compiling root (2 scala sources)
+2023.07.07 23:37:39 INFO  time: compiled root in 50ms
+2023.07.07 23:37:40 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:40 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:40 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:46 INFO  compiling root (2 scala sources)
+2023.07.07 23:37:46 INFO  time: compiled root in 57ms
+2023.07.07 23:37:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:49 INFO  compiling root (2 scala sources)
+2023.07.07 23:37:49 INFO  time: compiled root in 58ms
+2023.07.07 23:37:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:58 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:37:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:38:00 INFO  compiling root (2 scala sources)
+2023.07.07 23:38:00 INFO  time: compiled root in 57ms
+2023.07.07 23:38:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:38:13 INFO  compiling root (2 scala sources)
+2023.07.07 23:38:13 INFO  time: compiled root in 0.35s
+2023.07.07 23:38:32 INFO  compiling root (2 scala sources)
+2023.07.07 23:38:32 INFO  time: compiled root in 49ms
+2023.07.07 23:38:36 INFO  compiling root (2 scala sources)
+2023.07.07 23:38:36 INFO  time: compiled root in 50ms
+2023.07.07 23:38:57 INFO  compiling root (2 scala sources)
+2023.07.07 23:38:57 INFO  time: compiled root in 50ms
+2023.07.07 23:39:03 INFO  compiling root (2 scala sources)
+2023.07.07 23:39:03 INFO  time: compiled root in 44ms
+2023.07.07 23:39:12 INFO  compiling root (2 scala sources)
+2023.07.07 23:39:12 INFO  time: compiled root in 48ms
+2023.07.07 23:39:20 INFO  compiling root (2 scala sources)
+2023.07.07 23:39:20 INFO  time: compiled root in 50ms
+2023.07.07 23:39:25 INFO  compiling root (2 scala sources)
+2023.07.07 23:39:25 INFO  time: compiled root in 40ms
+2023.07.07 23:39:28 INFO  compiling root (2 scala sources)
+2023.07.07 23:39:28 INFO  time: compiled root in 47ms
+2023.07.07 23:39:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:55 WARN  Using indexes to guess the definition of C
+2023.07.07 23:39:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:56 WARN  Using indexes to guess the definition of C
+2023.07.07 23:39:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:39:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:40:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:40:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:40:01 INFO  compiling root (2 scala sources)
+2023.07.07 23:40:01 INFO  time: compiled root in 51ms
+2023.07.07 23:40:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:40:12 INFO  compiling root (2 scala sources)
+2023.07.07 23:40:12 INFO  time: compiled root in 0.42s
+Jul 07, 2023 11:40:46 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 290, count -1, length 1622
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:51 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:51 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:51 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:51 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:51 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:51 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:52 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:52 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:54 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:54 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:53 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:54 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:35:1: stale bloop error: class InitialState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im initial state")
+>     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
+>   }
+> }
+2023.07.07 23:40:54 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:42:1: stale bloop error: class SubsequentState needs to be abstract.
+Missing implementation for member of trait State:
+  val context: poolfacade.PoolContext = ??? // implements `val context: C`
+
+> case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, PoolContext] {
+>   def handleItem(item: Int, context: PoolContext): StatefulProcessor.Result[Int, String, PoolContext] = {
+>     println("Im subsequent state")
+>     StatefulProcessor.Result(this, s"item_$item", true)
+>   }
+> }
+Jul 07, 2023 11:41:09 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 315, count -1, length 1647
+2023.07.07 23:41:15 INFO  compiling root (2 scala sources)
+2023.07.07 23:41:15 INFO  time: compiled root in 46ms
+2023.07.07 23:41:20 INFO  compiling root (2 scala sources)
+2023.07.07 23:41:20 INFO  time: compiled root in 0.42s
+2023.07.07 23:41:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 INFO  compiling root (2 scala sources)
+2023.07.07 23:41:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:41:47 INFO  time: compiled root in 0.54s
+2023.07.07 23:41:47 INFO  compiling root (2 scala sources)
+2023.07.07 23:41:47 INFO  time: compiled root in 40ms
+2023.07.07 23:41:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:34 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:36 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in Option[C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 274, 274, 282)
+2023.07.07 23:48:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:41 INFO  compiling root (2 scala sources)
+2023.07.07 23:48:41 INFO  time: compiled root in 0.13s
+2023.07.07 23:48:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in Option[C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1304, 1304, 1312)
+2023.07.07 23:48:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:52 INFO  compiling root (2 scala sources)
+2023.07.07 23:48:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:52 INFO  time: compiled root in 57ms
+2023.07.07 23:48:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:58 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:48:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1463, 1463, 1627)
+2023.07.07 23:49:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1463, 1463, 1479)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in Option[C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1463, 1463, 1472)
+2023.07.07 23:49:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:49:01 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:01 INFO  time: compiled root in 54ms
+2023.07.07 23:49:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in Option[C]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1463, 1463, 1472)
+2023.07.07 23:49:04 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:49:05 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:49:05 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:49:06 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:49:06 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:06 INFO  time: compiled root in 55ms
+2023.07.07 23:49:06 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 23:49:17 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:17 INFO  time: compiled root in 57ms
+2023.07.07 23:49:30 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:30 INFO  time: compiled root in 0.44s
+2023.07.07 23:49:42 WARN  Using indexes to guess the definition of PoolContext
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in Option[poolfacade.PoolContext]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1160, 1160, 1178)
+2023.07.07 23:49:48 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:48 INFO  time: compiled root in 0.44s
+2023.07.07 23:49:51 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:51 INFO  time: compiled root in 0.44s
+2023.07.07 23:49:51 INFO  compiling root (2 scala sources)
+2023.07.07 23:49:51 INFO  time: compiled root in 29ms
+2023.07.07 23:50:00 INFO  compiling root (2 scala sources)
+2023.07.07 23:50:00 INFO  time: compiled root in 0.45s
+2023.07.07 23:50:00 INFO  compiling root (2 scala sources)
+2023.07.07 23:50:00 INFO  time: compiled root in 28ms
+2023.07.07 23:50:04 INFO  compiling root (4 scala sources)
+2023.07.07 23:50:04 INFO  time: compiled root in 63ms
+2023.07.07 23:50:07 INFO  compiling root (4 scala sources)
+2023.07.07 23:50:07 INFO  time: compiled root in 61ms
+2023.07.07 23:50:10 INFO  compiling root (4 scala sources)
+2023.07.07 23:50:10 INFO  time: compiled root in 59ms
+2023.07.07 23:50:15 INFO  compiling root (4 scala sources)
+2023.07.07 23:50:15 INFO  time: compiled root in 59ms
+2023.07.07 23:50:32 INFO  compiling root (4 scala sources)
+2023.07.07 23:50:32 INFO  time: compiled root in 57ms
+2023.07.07 23:50:41 INFO  compiling root (4 scala sources)
+2023.07.07 23:50:41 INFO  time: compiled root in 0.52s
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 992, 992, 1167)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 992, 992, 1008)
+2023.07.07 23:51:01 INFO  compiling root (4 scala sources)
+2023.07.07 23:51:01 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 8h 36m 36.78s)
+2023.07.07 23:51:01 INFO  compiling root (4 scala sources)
+2023.07.07 23:51:01 INFO  time: compiled root in 0.51s
+2023.07.07 23:51:06 INFO  compiling root (4 scala sources)
+2023.07.07 23:51:06 INFO  time: compiled root in 0.52s
+2023.07.08 00:04:00 INFO  compiling root (1 scala source)
+2023.07.08 00:04:00 INFO  time: compiled root in 0.52s
+2023.07.08 00:04:14 INFO  compiling root (1 scala source)
+2023.07.08 00:04:14 INFO  time: compiled root in 25ms
+2023.07.08 01:14:08 INFO  compiling root (1 scala source)
+2023.07.08 01:14:08 INFO  time: compiled root in 0.61s
+2023.07.08 01:14:26 INFO  compiling root (1 scala source)
+2023.07.08 01:14:26 INFO  time: compiled root in 42ms
+2023.07.08 01:14:30 INFO  compiling root (1 scala source)
+2023.07.08 01:14:30 INFO  time: compiled root in 0.77s
+2023.07.08 01:14:47 INFO  compiling root (1 scala source)
+2023.07.08 01:14:47 INFO  time: compiled root in 0.42s
+2023.07.08 01:18:16 INFO  compiling root (1 scala source)
+2023.07.08 01:18:16 INFO  time: compiled root in 0.52s
+2023.07.08 01:18:40 INFO  compiling root (1 scala source)
+2023.07.08 01:18:40 INFO  time: compiled root in 47ms
+2023.07.08 01:18:51 INFO  compiling root (1 scala source)
+2023.07.08 01:18:51 INFO  time: compiled root in 49ms
+Jul 08, 2023 1:19:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12806
+2023.07.08 01:20:09 INFO  compiling root (1 scala source)
+2023.07.08 01:20:09 INFO  time: compiled root in 47ms
+2023.07.08 01:20:41 INFO  compiling root (1 scala source)
+2023.07.08 01:20:41 INFO  time: compiled root in 48ms
+2023.07.08 01:21:37 INFO  compiling root (1 scala source)
+2023.07.08 01:21:37 INFO  time: compiled root in 28ms
+2023.07.08 01:21:45 INFO  compiling root (1 scala source)
+2023.07.08 01:21:45 INFO  time: compiled root in 60ms
+2023.07.08 01:22:16 INFO  compiling root (1 scala source)
+2023.07.08 01:22:16 INFO  time: compiled root in 57ms
+2023.07.08 01:22:32 INFO  compiling root (1 scala source)
+2023.07.08 01:22:32 INFO  time: compiled root in 55ms
+2023.07.08 01:22:43 INFO  compiling root (1 scala source)
+2023.07.08 01:22:43 INFO  time: compiled root in 52ms
+2023.07.08 01:22:59 INFO  compiling root (1 scala source)
+2023.07.08 01:22:59 INFO  time: compiled root in 89ms
+2023.07.08 01:23:08 INFO  compiling root (1 scala source)
+2023.07.08 01:23:08 INFO  time: compiled root in 51ms
+2023.07.08 01:23:20 INFO  compiling root (1 scala source)
+2023.07.08 01:23:20 INFO  time: compiled root in 48ms
+2023.07.08 01:23:24 INFO  compiling root (1 scala source)
+2023.07.08 01:23:24 INFO  time: compiled root in 52ms
+2023.07.08 01:23:37 INFO  compiling root (1 scala source)
+2023.07.08 01:23:37 INFO  time: compiled root in 50ms
+2023.07.08 01:23:48 INFO  compiling root (1 scala source)
+2023.07.08 01:23:48 INFO  time: compiled root in 46ms
+2023.07.08 01:24:19 INFO  compiling root (1 scala source)
+2023.07.08 01:24:19 INFO  time: compiled root in 51ms
+2023.07.08 01:25:10 INFO  compiling root (1 scala source)
+2023.07.08 01:25:10 INFO  time: compiled root in 53ms
+2023.07.08 01:25:17 INFO  compiling root (1 scala source)
+2023.07.08 01:25:17 INFO  time: compiled root in 55ms
+2023.07.08 01:25:32 INFO  compiling root (1 scala source)
+2023.07.08 01:25:32 INFO  time: compiled root in 53ms
+2023.07.08 01:25:42 INFO  compiling root (1 scala source)
+2023.07.08 01:25:42 INFO  time: compiled root in 50ms
+2023.07.08 01:25:47 INFO  compiling root (1 scala source)
+2023.07.08 01:25:47 INFO  time: compiled root in 50ms
+2023.07.08 01:26:03 INFO  compiling root (1 scala source)
+2023.07.08 01:26:03 INFO  time: compiled root in 51ms
+2023.07.08 01:26:11 INFO  compiling root (1 scala source)
+2023.07.08 01:26:11 INFO  time: compiled root in 48ms
+2023.07.08 01:26:24 INFO  compiling root (1 scala source)
+2023.07.08 01:26:24 INFO  time: compiled root in 46ms
+2023.07.08 01:26:29 INFO  compiling root (1 scala source)
+2023.07.08 01:26:29 INFO  time: compiled root in 48ms
+2023.07.08 01:26:40 INFO  compiling root (1 scala source)
+2023.07.08 01:26:40 INFO  time: compiled root in 52ms
+2023.07.08 01:26:45 INFO  compiling root (1 scala source)
+2023.07.08 01:26:45 INFO  time: compiled root in 56ms
+2023.07.08 01:26:55 INFO  compiling root (1 scala source)
+2023.07.08 01:26:55 INFO  time: compiled root in 51ms
+2023.07.08 01:27:01 INFO  compiling root (1 scala source)
+2023.07.08 01:27:01 INFO  time: compiled root in 50ms
+2023.07.08 01:27:22 INFO  compiling root (1 scala source)
+2023.07.08 01:27:22 INFO  time: compiled root in 57ms
+2023.07.08 01:27:31 INFO  compiling root (1 scala source)
+2023.07.08 01:27:31 INFO  time: compiled root in 58ms
+2023.07.08 01:27:40 INFO  compiling root (1 scala source)
+2023.07.08 01:27:40 INFO  time: compiled root in 45ms
+2023.07.08 01:27:47 INFO  compiling root (1 scala source)
+2023.07.08 01:27:47 INFO  time: compiled root in 47ms
+2023.07.08 01:27:57 INFO  compiling root (1 scala source)
+2023.07.08 01:27:57 INFO  time: compiled root in 47ms
+2023.07.08 01:28:02 INFO  compiling root (1 scala source)
+2023.07.08 01:28:02 INFO  time: compiled root in 46ms
+2023.07.08 01:28:08 INFO  compiling root (1 scala source)
+2023.07.08 01:28:08 INFO  time: compiled root in 47ms
+2023.07.08 01:28:18 INFO  compiling root (1 scala source)
+2023.07.08 01:28:18 INFO  time: compiled root in 48ms
+2023.07.08 01:28:32 INFO  compiling root (1 scala source)
+2023.07.08 01:28:32 INFO  time: compiled root in 51ms
+2023.07.08 01:28:46 INFO  compiling root (1 scala source)
+2023.07.08 01:28:46 INFO  time: compiled root in 47ms
+2023.07.08 01:28:57 INFO  compiling root (1 scala source)
+2023.07.08 01:28:57 INFO  time: compiled root in 26ms
+2023.07.08 01:29:05 INFO  compiling root (1 scala source)
+2023.07.08 01:29:05 INFO  time: compiled root in 45ms
+2023.07.08 01:29:19 INFO  compiling root (1 scala source)
+2023.07.08 01:29:19 INFO  time: compiled root in 47ms
+2023.07.08 01:29:31 INFO  compiling root (1 scala source)
+2023.07.08 01:29:31 INFO  time: compiled root in 38ms
+2023.07.08 01:29:38 INFO  compiling root (1 scala source)
+2023.07.08 01:29:38 INFO  time: compiled root in 48ms
+2023.07.08 01:29:55 INFO  compiling root (1 scala source)
+2023.07.08 01:29:55 INFO  time: compiled root in 43ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 623, 623, 654)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 623, 623, 639)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 623, 623, 632)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in Option[poolfacade.CookieMap]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 623, 623, 640)
+2023.07.08 01:30:06 INFO  compiling root (1 scala source)
+2023.07.08 01:30:06 INFO  time: compiled root in 42ms
+2023.07.08 01:30:12 INFO  compiling root (1 scala source)
+2023.07.08 01:30:12 INFO  time: compiled root in 44ms
+2023.07.08 01:30:19 INFO  compiling root (1 scala source)
+2023.07.08 01:30:19 INFO  time: compiled root in 0.4s
+2023.07.08 01:30:24 INFO  compiling root (1 scala source)
+2023.07.08 01:30:24 INFO  time: compiled root in 0.38s
+2023.07.08 01:31:04 INFO  compiling root (1 scala source)
+2023.07.08 01:31:04 INFO  time: compiled root in 0.4s
+2023.07.08 01:31:15 INFO  compiling root (1 scala source)
+2023.07.08 01:31:15 INFO  time: compiled root in 0.4s

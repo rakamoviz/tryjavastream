@@ -11,7 +11,7 @@ object Main extends App {
 
   def tryProcessor(): Unit = {
     val publisher: SubmissionPublisher[Int] = new SubmissionPublisher()
-    val resourcePoolProcessor: StatefulProcessor[Int, String] = StatefulProcessor[Int, String] {
+    val resourcePoolProcessor: StatefulProcessor[Int, String, Unit] = StatefulProcessor[Int, String, Unit] () {
       subscription => 
         InitialState(subscription)
     }
@@ -30,15 +30,15 @@ object Main extends App {
   }
 }
 
-case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String] {
-  def handleItem(item: Int): StatefulProcessor.Result[Int, String] = {
+case class InitialState(subscription: Subscription) extends StatefulProcessor.State[Int, String, Unit] {
+  def handleItem(item: Int, context: Option[Unit]): StatefulProcessor.Result[Int, String, Unit] = {
     println("Im initial state")
     StatefulProcessor.Result(SubsequentState(subscription), s"item_$item", true)
   }
 }
 
-case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String] {
-  def handleItem(item: Int): StatefulProcessor.Result[Int, String] = {
+case class SubsequentState(subscription: Subscription) extends StatefulProcessor.State[Int, String, Unit] {
+  def handleItem(item: Int, context: Option[Unit]): StatefulProcessor.Result[Int, String, Unit] = {
     println("Im subsequent state")
     StatefulProcessor.Result(this, s"item_$item", true)
   }
