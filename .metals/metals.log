@@ -1,0 +1,842 @@
+2023.07.07 15:14:04 INFO  Started: Metals version 0.11.12 in workspace '/Users/rakadealengine/Projects/tryjavastream' for client Visual Studio Code 1.79.2.
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/rakadealengine/Projects/tryjavastream/.metals/metals (H2 2.1)
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.012s)
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 07, 2023 3:14:04 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.051s)
+2023.07.07 15:14:04 INFO  time: initialize in 0.43s
+2023.07.07 15:14:05 WARN  Build server is not auto-connectable.
+2023.07.07 15:14:08 INFO  running '/Users/rakadealengine/.sdkman/candidates/sbt/1.8.2/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.07 15:14:09 WARN  no build target for: /Users/rakadealengine/Projects/tryjavastream/project/metals.sbt
+2023.07.07 15:14:09 WARN  no build target for: /Users/rakadealengine/Projects/tryjavastream/project/project/metals.sbt
+2023.07.07 15:14:09 INFO  skipping build import with status 'Started'
+2023.07.07 15:14:09 INFO  [info] welcome to sbt 1.9.1 (Eclipse Adoptium Java 17.0.6)
+2023.07.07 15:14:09 INFO  [info] loading global plugins from /Users/rakadealengine/.sbt/1.0/plugins
+2023.07.07 15:14:10 INFO  no build target found for /Users/rakadealengine/Projects/tryjavastream/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.10
+2023.07.07 15:14:11 INFO  [info] loading settings for project tryjavastream-build-build from metals.sbt ...
+2023.07.07 15:14:11 INFO  [info] loading project definition from /Users/rakadealengine/Projects/tryjavastream/project/project
+2023.07.07 15:14:11 INFO  [info] loading settings for project tryjavastream-build from metals.sbt ...
+2023.07.07 15:14:11 INFO  [info] loading project definition from /Users/rakadealengine/Projects/tryjavastream/project
+2023.07.07 15:14:16 INFO  [success] Generated .bloop/tryjavastream-build.json
+2023.07.07 15:14:16 INFO  [info] compiling 1 Scala source to /Users/rakadealengine/Projects/tryjavastream/project/target/scala-2.12/sbt-1.0/classes ...
+2023.07.07 15:14:18 INFO  [info] done compiling
+2023.07.07 15:14:18 INFO  [success] Total time: 6 s, completed Jul 7, 2023, 3:14:18 PM
+2023.07.07 15:14:18 INFO  [info] loading settings for project root from build.sbt ...
+2023.07.07 15:14:18 INFO  [info] set current project to tryjavastream (in build file:/Users/rakadealengine/Projects/tryjavastream/)
+2023.07.07 15:14:24 INFO  [success] Generated .bloop/root.json
+2023.07.07 15:14:24 INFO  [success] Generated .bloop/root-test.json
+2023.07.07 15:14:24 INFO  [success] Total time: 6 s, completed Jul 7, 2023, 3:14:24 PM
+2023.07.07 15:14:24 INFO  time: ran 'sbt bloopInstall' in 16s
+2023.07.07 15:14:24 INFO  Attempting to connect to the build server...
+2023.07.07 15:14:24 INFO  Bloop uses /Users/rakadealengine/.sdkman/candidates/java/17.0.6-tem defined at /Users/rakadealengine/.bloop/bloop.json
+2023.07.07 15:14:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rakadealengine/Projects/tryjavastream/.metals/bsp.trace.json or /Users/rakadealengine/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.07 15:14:32 WARN  no build target for: /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 15:14:33 INFO  Attempting to connect to the build server...
+2023.07.07 15:14:33 INFO  Bloop uses /Users/rakadealengine/.sdkman/candidates/java/17.0.6-tem defined at /Users/rakadealengine/.bloop/bloop.json
+2023.07.07 15:14:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rakadealengine/Projects/tryjavastream/project/.metals/bsp.trace.json or /Users/rakadealengine/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.07 15:14:45 INFO  time: Connected to build server in 20s
+2023.07.07 15:14:45 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.07 15:14:46 INFO  compiling root (2 scala sources)
+2023.07.07 15:14:51 INFO  time: compiled root in 5.1s
+2023.07.07 15:14:51 INFO  compiling root (2 scala sources)
+2023.07.07 15:14:51 INFO  time: compiled root in 51ms
+2023.07.07 15:14:53 INFO  time: indexed workspace in 8.37s
+2023.07.07 15:14:53 INFO  compiling root (2 scala sources)
+2023.07.07 15:14:53 INFO  time: compiled root in 0.73s
+2023.07.07 15:15:07 INFO  compiling root (2 scala sources)
+2023.07.07 15:15:07 INFO  time: compiled root in 0.39s
+2023.07.07 15:15:08 INFO  compiling root (2 scala sources)
+2023.07.07 15:15:08 INFO  time: compiled root in 0.18s
+2023.07.07 15:15:10 WARN  Using indexes to guess the definition of onNext
+2023.07.07 15:15:12 WARN  Using indexes to guess the definition of onNext
+2023.07.07 15:15:21 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:45:20: stale bloop error: not found: type T
+  def onNext(item: T): Unit = {
+                   ^
+2023.07.07 15:15:21 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:46:12: stale bloop error: not found: value function
+    submit(function(item))
+           ^^^^^^^^
+2023.07.07 15:15:21 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:45:20: stale bloop error: not found: type T
+  def onNext(item: T): Unit = {
+                   ^
+2023.07.07 15:15:21 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:46:12: stale bloop error: not found: value function
+    submit(function(item))
+           ^^^^^^^^
+2023.07.07 15:15:22 INFO  compiling root (2 scala sources)
+2023.07.07 15:15:22 INFO  time: compiled root in 0.13s
+2023.07.07 15:15:25 INFO  compiling root (2 scala sources)
+2023.07.07 15:15:25 INFO  time: compiled root in 0.12s
+2023.07.07 15:15:33 WARN  Using indexes to guess the definition of Processor
+2023.07.07 15:15:53 WARN  Using indexes to guess the definition of subscription
+Jul 07, 2023 3:27:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+2023.07.07 15:27:51 INFO  compiling root (2 scala sources)
+2023.07.07 15:27:51 INFO  time: compiled root in 0.15s
+2023.07.07 15:27:54 INFO  compiling root (2 scala sources)
+2023.07.07 15:27:54 INFO  time: compiled root in 0.12s
+2023.07.07 15:27:56 INFO  compiling root (2 scala sources)
+2023.07.07 15:27:56 INFO  time: compiled root in 0.14s
+2023.07.07 15:27:59 INFO  compiling root (2 scala sources)
+2023.07.07 15:27:59 INFO  time: compiled root in 0.11s
+2023.07.07 15:28:07 INFO  compiling root (2 scala sources)
+2023.07.07 15:28:07 INFO  time: compiled root in 0.12s
+2023.07.07 15:28:15 INFO  compiling root (2 scala sources)
+2023.07.07 15:28:15 INFO  time: compiled root in 96ms
+2023.07.07 15:29:52 INFO  compiling root (2 scala sources)
+2023.07.07 15:29:52 INFO  time: compiled root in 0.13s
+2023.07.07 15:30:13 INFO  compiling root (2 scala sources)
+2023.07.07 15:30:13 INFO  time: compiled root in 86ms
+2023.07.07 15:31:02 INFO  compiling root (2 scala sources)
+2023.07.07 15:31:03 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.07.07 15:31:03 INFO  time: compiled root in 1.3s
+2023.07.07 15:31:13 INFO  compiling root (1 scala source)
+2023.07.07 15:31:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2023.07.07 15:31:13 INFO  time: compiled root in 0.52s
+2023.07.07 15:39:44 INFO  compiling root (1 scala source)
+2023.07.07 15:39:44 INFO  time: compiled root in 39ms
+2023.07.07 15:39:49 INFO  compiling root (1 scala source)
+2023.07.07 15:39:49 INFO  time: compiled root in 35ms
+2023.07.07 15:40:18 INFO  compiling root (1 scala source)
+2023.07.07 15:40:18 INFO  time: compiled root in 75ms
+2023.07.07 15:42:08 INFO  compiling root (1 scala source)
+2023.07.07 15:42:08 INFO  time: compiled root in 30ms
+2023.07.07 15:42:08 INFO  compiling root (1 scala source)
+2023.07.07 15:42:08 INFO  time: compiled root in 13ms
+2023.07.07 15:42:23 INFO  compiling root (1 scala source)
+2023.07.07 15:42:23 INFO  time: compiled root in 73ms
+2023.07.07 15:42:55 INFO  compiling root (1 scala source)
+2023.07.07 15:42:55 INFO  time: compiled root in 54ms
+2023.07.07 15:43:27 INFO  compiling root (1 scala source)
+2023.07.07 15:43:27 INFO  time: compiled root in 63ms
+2023.07.07 16:52:13 INFO  compiling root (1 scala source)
+2023.07.07 16:52:13 INFO  time: compiled root in 0.11s
+2023.07.07 16:52:50 INFO  compiling root (1 scala source)
+2023.07.07 16:52:50 INFO  time: compiled root in 58ms
+2023.07.07 16:53:15 INFO  compiling root (1 scala source)
+2023.07.07 16:53:15 INFO  time: compiled root in 71ms
+2023.07.07 16:53:18 INFO  compiling root (1 scala source)
+2023.07.07 16:53:18 INFO  time: compiled root in 33ms
+2023.07.07 16:53:26 INFO  compiling root (1 scala source)
+2023.07.07 16:53:26 INFO  time: compiled root in 83ms
+2023.07.07 16:53:34 INFO  compiling root (1 scala source)
+2023.07.07 16:53:34 INFO  time: compiled root in 56ms
+2023.07.07 16:53:40 INFO  compiling root (1 scala source)
+2023.07.07 16:53:40 INFO  time: compiled root in 53ms
+2023.07.07 16:54:10 INFO  compiling root (1 scala source)
+2023.07.07 16:54:10 INFO  time: compiled root in 67ms
+2023.07.07 16:56:35 INFO  compiling root (1 scala source)
+2023.07.07 16:56:35 INFO  time: compiled root in 31ms
+2023.07.07 17:01:21 INFO  compiling root (1 scala source)
+2023.07.07 17:01:21 INFO  time: compiled root in 64ms
+2023.07.07 17:01:37 INFO  compiling root (1 scala source)
+2023.07.07 17:01:37 INFO  time: compiled root in 27ms
+2023.07.07 17:02:09 INFO  compiling root (1 scala source)
+2023.07.07 17:02:09 INFO  time: compiled root in 0.1s
+2023.07.07 17:02:15 INFO  compiling root (1 scala source)
+2023.07.07 17:02:15 INFO  time: compiled root in 79ms
+2023.07.07 17:02:21 INFO  compiling root (1 scala source)
+2023.07.07 17:02:21 INFO  time: compiled root in 62ms
+2023.07.07 17:02:25 INFO  compiling root (1 scala source)
+2023.07.07 17:02:25 INFO  time: compiled root in 59ms
+2023.07.07 17:02:36 INFO  compiling root (1 scala source)
+2023.07.07 17:02:36 INFO  time: compiled root in 0.38s
+2023.07.07 17:02:48 WARN  Using indexes to guess the definition of handleItem
+2023.07.07 17:02:48 INFO  compiling root (1 scala source)
+2023.07.07 17:02:48 INFO  time: compiled root in 0.41s
+2023.07.07 17:02:50 INFO  compiling root (1 scala source)
+2023.07.07 17:02:50 INFO  time: compiled root in 0.6s
+2023.07.07 17:02:56 INFO  compiling root (1 scala source)
+2023.07.07 17:02:56 INFO  time: compiled root in 0.33s
+2023.07.07 17:03:00 INFO  compiling root (1 scala source)
+2023.07.07 17:03:00 INFO  time: compiled root in 0.36s
+2023.07.07 17:03:25 INFO  compiling root (1 scala source)
+2023.07.07 17:03:25 INFO  time: compiled root in 51ms
+2023.07.07 17:03:35 INFO  compiling root (1 scala source)
+2023.07.07 17:03:35 INFO  time: compiled root in 0.61s
+2023.07.07 17:03:59 INFO  compiling root (1 scala source)
+2023.07.07 17:03:59 INFO  time: compiled root in 0.41s
+2023.07.07 17:04:20 INFO  compiling root (1 scala source)
+2023.07.07 17:04:20 INFO  time: compiled root in 0.42s
+2023.07.07 17:04:25 INFO  compiling root (1 scala source)
+2023.07.07 17:04:25 INFO  time: compiled root in 54ms
+2023.07.07 17:04:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:25 INFO  compiling root (1 scala source)
+2023.07.07 17:04:25 INFO  time: compiled root in 38ms
+2023.07.07 17:04:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:35 INFO  compiling root (1 scala source)
+2023.07.07 17:04:35 INFO  time: compiled root in 24ms
+2023.07.07 17:04:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:40 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:40 INFO  compiling root (1 scala source)
+2023.07.07 17:04:40 INFO  time: compiled root in 65ms
+2023.07.07 17:04:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:44 INFO  compiling root (1 scala source)
+2023.07.07 17:04:44 INFO  time: compiled root in 63ms
+2023.07.07 17:04:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:54 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:04:54 INFO  compiling root (1 scala source)
+2023.07.07 17:04:54 INFO  time: compiled root in 52ms
+2023.07.07 17:04:54 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:08 INFO  compiling root (1 scala source)
+2023.07.07 17:05:08 INFO  time: compiled root in 66ms
+2023.07.07 17:05:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:10 INFO  compiling root (1 scala source)
+2023.07.07 17:05:10 INFO  time: compiled root in 53ms
+2023.07.07 17:05:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:20 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:27 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:32 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:34 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:40 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:41 INFO  compiling root (1 scala source)
+2023.07.07 17:05:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:41 INFO  time: compiled root in 74ms
+2023.07.07 17:05:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:46 INFO  compiling root (1 scala source)
+2023.07.07 17:05:46 INFO  time: compiled root in 61ms
+2023.07.07 17:05:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:47 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:47:72: stale bloop error: type mismatch;
+ found   : Unit
+ required: (example.ResourcePoolProcessorState, String)
+> {
+>     
+>   }
+2023.07.07 17:05:47 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:47:72: stale bloop error: type mismatch;
+ found   : Unit
+ required: (example.ResourcePoolProcessorState, String)
+> {
+>     
+>   }
+2023.07.07 17:05:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:47:72: stale bloop error: type mismatch;
+ found   : Unit
+ required: (example.ResourcePoolProcessorState, String)
+> {
+>     
+>   }
+2023.07.07 17:05:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala:47:72: stale bloop error: type mismatch;
+ found   : Unit
+ required: (example.ResourcePoolProcessorState, String)
+> {
+>     
+>   }
+2023.07.07 17:05:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:05:53 INFO  compiling root (1 scala source)
+2023.07.07 17:05:53 INFO  time: compiled root in 61ms
+2023.07.07 17:05:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:06:02 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 17:06:02 INFO  compiling root (1 scala source)
+2023.07.07 17:06:02 INFO  time: compiled root in 0.42s
+2023.07.07 17:06:09 INFO  compiling root (1 scala source)
+2023.07.07 17:06:09 INFO  time: compiled root in 55ms
+2023.07.07 17:06:09 INFO  compiling root (1 scala source)
+2023.07.07 17:06:10 INFO  time: compiled root in 0.43s
+2023.07.07 17:06:31 WARN  Using indexes to guess the definition of state
+2023.07.07 17:06:31 INFO  compiling root (1 scala source)
+2023.07.07 17:06:31 INFO  time: compiled root in 58ms
+2023.07.07 17:06:34 INFO  compiling root (1 scala source)
+2023.07.07 17:06:34 INFO  time: compiled root in 56ms
+Jul 07, 2023 5:06:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2650
+2023.07.07 17:07:31 INFO  compiling root (1 scala source)
+2023.07.07 17:07:31 INFO  time: compiled root in 28ms
+2023.07.07 17:07:31 INFO  compiling root (1 scala source)
+2023.07.07 17:07:31 INFO  time: compiled root in 10ms
+2023.07.07 17:07:36 INFO  compiling root (1 scala source)
+2023.07.07 17:07:36 INFO  time: compiled root in 54ms
+2023.07.07 17:07:55 INFO  compiling root (1 scala source)
+2023.07.07 17:07:55 INFO  time: compiled root in 57ms
+2023.07.07 17:08:01 INFO  compiling root (1 scala source)
+2023.07.07 17:08:01 INFO  time: compiled root in 56ms
+2023.07.07 17:08:07 INFO  compiling root (1 scala source)
+2023.07.07 17:08:07 INFO  time: compiled root in 64ms
+2023.07.07 17:08:10 INFO  compiling root (1 scala source)
+2023.07.07 17:08:10 INFO  time: compiled root in 58ms
+2023.07.07 17:08:10 WARN  Using indexes to guess the definition of subscription
+2023.07.07 17:08:22 INFO  compiling root (1 scala source)
+2023.07.07 17:08:22 INFO  time: compiled root in 52ms
+2023.07.07 17:08:44 INFO  compiling root (1 scala source)
+2023.07.07 17:08:44 INFO  time: compiled root in 51ms
+2023.07.07 17:08:44 INFO  compiling root (1 scala source)
+2023.07.07 17:08:44 INFO  time: compiled root in 46ms
+2023.07.07 17:08:49 INFO  compiling root (1 scala source)
+2023.07.07 17:08:49 INFO  time: compiled root in 0.45s
+2023.07.07 17:08:53 INFO  compiling root (1 scala source)
+2023.07.07 17:08:53 INFO  time: compiled root in 40ms
+2023.07.07 17:08:55 INFO  compiling root (1 scala source)
+2023.07.07 17:08:55 INFO  time: compiled root in 76ms
+2023.07.07 17:08:58 INFO  compiling root (1 scala source)
+2023.07.07 17:08:58 INFO  time: compiled root in 65ms
+2023.07.07 17:09:09 INFO  compiling root (1 scala source)
+2023.07.07 17:09:09 INFO  time: compiled root in 0.42s
+2023.07.07 17:09:20 INFO  compiling root (1 scala source)
+2023.07.07 17:09:20 INFO  time: compiled root in 0.43s
+2023.07.07 17:09:57 INFO  compiling root (1 scala source)
+2023.07.07 17:09:57 INFO  time: compiled root in 0.45s
+2023.07.07 17:10:01 INFO  compiling root (1 scala source)
+2023.07.07 17:10:01 INFO  time: compiled root in 0.65s
+2023.07.07 17:10:05 INFO  compiling root (1 scala source)
+2023.07.07 17:10:05 INFO  time: compiled root in 0.4s
+2023.07.07 17:10:35 INFO  compiling root (1 scala source)
+2023.07.07 17:10:35 INFO  time: compiled root in 65ms
+2023.07.07 17:10:39 INFO  compiling root (1 scala source)
+2023.07.07 17:10:39 INFO  time: compiled root in 50ms
+2023.07.07 17:10:43 INFO  compiling root (1 scala source)
+2023.07.07 17:10:43 INFO  time: compiled root in 43ms
+2023.07.07 17:10:43 INFO  compiling root (1 scala source)
+2023.07.07 17:10:43 INFO  time: compiled root in 34ms
+2023.07.07 17:10:47 INFO  compiling root (1 scala source)
+2023.07.07 17:10:47 INFO  time: compiled root in 50ms
+2023.07.07 17:10:53 INFO  compiling root (1 scala source)
+2023.07.07 17:10:53 INFO  time: compiled root in 0.41s
+2023.07.07 17:11:31 INFO  compiling root (1 scala source)
+2023.07.07 17:11:31 INFO  time: compiled root in 51ms
+2023.07.07 17:12:19 INFO  compiling root (1 scala source)
+2023.07.07 17:12:19 INFO  time: compiled root in 26ms
+2023.07.07 17:12:24 INFO  compiling root (1 scala source)
+2023.07.07 17:12:24 INFO  time: compiled root in 88ms
+2023.07.07 17:12:32 INFO  compiling root (1 scala source)
+2023.07.07 17:12:32 INFO  time: compiled root in 69ms
+2023.07.07 17:12:59 INFO  compiling root (1 scala source)
+2023.07.07 17:12:59 INFO  time: compiled root in 32ms
+Jul 07, 2023 5:15:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3920
+2023.07.07 17:15:32 INFO  compiling root (1 scala source)
+2023.07.07 17:15:32 INFO  time: compiled root in 38ms
+2023.07.07 17:15:36 INFO  compiling root (1 scala source)
+2023.07.07 17:15:36 INFO  time: compiled root in 24ms
+2023.07.07 17:15:44 INFO  compiling root (1 scala source)
+2023.07.07 17:15:44 INFO  time: compiled root in 23ms
+2023.07.07 17:15:47 INFO  compiling root (1 scala source)
+2023.07.07 17:15:47 INFO  time: compiled root in 64ms
+2023.07.07 17:16:11 INFO  compiling root (1 scala source)
+2023.07.07 17:16:11 INFO  time: compiled root in 26ms
+2023.07.07 17:16:14 INFO  compiling root (1 scala source)
+2023.07.07 17:16:14 INFO  time: compiled root in 59ms
+2023.07.07 17:16:30 INFO  compiling root (1 scala source)
+2023.07.07 17:16:30 INFO  time: compiled root in 70ms
+2023.07.07 17:16:30 INFO  compiling root (1 scala source)
+2023.07.07 17:16:30 INFO  time: compiled root in 57ms
+2023.07.07 17:16:31 INFO  compiling root (1 scala source)
+2023.07.07 17:16:31 INFO  time: compiled root in 47ms
+2023.07.07 17:16:43 INFO  compiling root (1 scala source)
+2023.07.07 17:16:43 INFO  time: compiled root in 61ms
+2023.07.07 17:16:46 INFO  compiling root (1 scala source)
+2023.07.07 17:16:46 INFO  time: compiled root in 55ms
+2023.07.07 17:16:51 INFO  compiling root (1 scala source)
+2023.07.07 17:16:51 INFO  time: compiled root in 60ms
+2023.07.07 17:17:03 INFO  compiling root (1 scala source)
+2023.07.07 17:17:03 INFO  time: compiled root in 53ms
+2023.07.07 17:17:12 INFO  compiling root (1 scala source)
+2023.07.07 17:17:12 INFO  time: compiled root in 56ms
+2023.07.07 17:17:14 INFO  compiling root (1 scala source)
+2023.07.07 17:17:14 INFO  time: compiled root in 54ms
+2023.07.07 17:17:31 INFO  compiling root (1 scala source)
+2023.07.07 17:17:31 INFO  time: compiled root in 62ms
+2023.07.07 17:17:32 INFO  compiling root (1 scala source)
+2023.07.07 17:17:32 INFO  time: compiled root in 40ms
+2023.07.07 17:17:35 INFO  compiling root (1 scala source)
+2023.07.07 17:17:35 INFO  time: compiled root in 59ms
+2023.07.07 17:17:46 INFO  compiling root (1 scala source)
+2023.07.07 17:17:46 INFO  time: compiled root in 64ms
+2023.07.07 17:17:50 INFO  compiling root (1 scala source)
+2023.07.07 17:17:50 INFO  time: compiled root in 88ms
+Jul 07, 2023 5:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4483
+2023.07.07 17:18:18 INFO  compiling root (1 scala source)
+2023.07.07 17:18:18 INFO  time: compiled root in 57ms
+2023.07.07 17:18:22 INFO  compiling root (1 scala source)
+2023.07.07 17:18:22 INFO  time: compiled root in 48ms
+2023.07.07 17:18:36 INFO  compiling root (1 scala source)
+2023.07.07 17:18:36 INFO  time: compiled root in 48ms
+2023.07.07 17:18:41 INFO  compiling root (1 scala source)
+2023.07.07 17:18:41 INFO  time: compiled root in 47ms
+2023.07.07 17:18:48 INFO  compiling root (1 scala source)
+2023.07.07 17:18:48 INFO  time: compiled root in 56ms
+2023.07.07 17:18:56 INFO  compiling root (1 scala source)
+2023.07.07 17:18:56 INFO  time: compiled root in 50ms
+2023.07.07 17:19:02 WARN  Using indexes to guess the definition of subscription
+2023.07.07 17:19:02 INFO  compiling root (1 scala source)
+2023.07.07 17:19:02 INFO  time: compiled root in 46ms
+2023.07.07 17:19:09 INFO  compiling root (1 scala source)
+2023.07.07 17:19:09 INFO  time: compiled root in 51ms
+2023.07.07 17:19:44 INFO  compiling root (1 scala source)
+2023.07.07 17:19:44 INFO  time: compiled root in 52ms
+2023.07.07 17:19:50 INFO  compiling root (1 scala source)
+2023.07.07 17:19:50 INFO  time: compiled root in 49ms
+2023.07.07 17:19:53 INFO  compiling root (1 scala source)
+2023.07.07 17:19:53 INFO  time: compiled root in 49ms
+2023.07.07 17:19:53 INFO  compiling root (1 scala source)
+2023.07.07 17:19:53 INFO  time: compiled root in 37ms
+2023.07.07 17:19:53 INFO  compiling root (1 scala source)
+2023.07.07 17:19:53 INFO  time: compiled root in 57ms
+2023.07.07 17:19:53 INFO  compiling root (1 scala source)
+2023.07.07 17:19:53 INFO  time: compiled root in 10ms
+Jul 07, 2023 5:19:53 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.07.07 17:19:53 INFO  compiling root (1 scala source)
+2023.07.07 17:19:53 INFO  time: compiled root in 9ms
+2023.07.07 17:19:53 INFO  compiling root (1 scala source)
+2023.07.07 17:19:53 INFO  time: compiled root in 11ms
+2023.07.07 17:19:54 INFO  compiling root (1 scala source)
+2023.07.07 17:19:54 INFO  time: compiled root in 8ms
+2023.07.07 17:19:56 INFO  compiling root (1 scala source)
+2023.07.07 17:19:56 INFO  time: compiled root in 47ms
+2023.07.07 17:19:59 INFO  compiling root (1 scala source)
+2023.07.07 17:19:59 INFO  time: compiled root in 28ms
+2023.07.07 17:20:02 INFO  compiling root (1 scala source)
+2023.07.07 17:20:02 INFO  time: compiled root in 55ms
+2023.07.07 17:20:07 INFO  compiling root (1 scala source)
+2023.07.07 17:20:07 INFO  time: compiled root in 55ms
+2023.07.07 17:20:07 INFO  compiling root (1 scala source)
+2023.07.07 17:20:07 INFO  time: compiled root in 42ms
+2023.07.07 17:20:18 INFO  compiling root (1 scala source)
+2023.07.07 17:20:18 INFO  time: compiled root in 47ms
+2023.07.07 17:20:44 INFO  compiling root (1 scala source)
+2023.07.07 17:20:44 INFO  time: compiled root in 49ms
+Jul 07, 2023 5:20:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5021
+2023.07.07 17:20:50 INFO  compiling root (1 scala source)
+2023.07.07 17:20:50 INFO  time: compiled root in 53ms
+2023.07.07 17:21:08 INFO  compiling root (1 scala source)
+2023.07.07 17:21:08 INFO  time: compiled root in 60ms
+2023.07.07 17:21:09 INFO  compiling root (1 scala source)
+2023.07.07 17:21:09 INFO  time: compiled root in 52ms
+2023.07.07 17:21:14 INFO  compiling root (1 scala source)
+2023.07.07 17:21:14 INFO  time: compiled root in 49ms
+2023.07.07 17:21:17 INFO  compiling root (1 scala source)
+2023.07.07 17:21:17 INFO  time: compiled root in 46ms
+2023.07.07 17:21:42 INFO  compiling root (1 scala source)
+2023.07.07 17:21:42 INFO  time: compiled root in 25ms
+2023.07.07 17:21:45 INFO  compiling root (1 scala source)
+2023.07.07 17:21:45 INFO  time: compiled root in 27ms
+2023.07.07 17:21:47 INFO  compiling root (1 scala source)
+2023.07.07 17:21:47 INFO  time: compiled root in 25ms
+2023.07.07 17:21:53 INFO  compiling root (1 scala source)
+2023.07.07 17:21:53 INFO  time: compiled root in 16ms
+2023.07.07 17:22:07 INFO  compiling root (1 scala source)
+2023.07.07 17:22:07 INFO  time: compiled root in 54ms
+2023.07.07 17:22:21 INFO  compiling root (1 scala source)
+2023.07.07 17:22:21 INFO  time: compiled root in 52ms
+2023.07.07 17:22:29 INFO  compiling root (1 scala source)
+2023.07.07 17:22:29 INFO  time: compiled root in 49ms
+2023.07.07 17:22:33 INFO  compiling root (1 scala source)
+2023.07.07 17:22:33 INFO  time: compiled root in 49ms
+2023.07.07 17:29:03 INFO  compiling root (1 scala source)
+2023.07.07 17:29:03 INFO  time: compiled root in 87ms
+2023.07.07 17:29:11 INFO  compiling root (1 scala source)
+2023.07.07 17:29:11 INFO  time: compiled root in 60ms
+2023.07.07 17:29:24 INFO  compiling root (1 scala source)
+2023.07.07 17:29:24 INFO  time: compiled root in 71ms
+2023.07.07 17:29:29 INFO  compiling root (1 scala source)
+2023.07.07 17:29:29 INFO  time: compiled root in 52ms
+2023.07.07 17:29:33 INFO  compiling root (1 scala source)
+2023.07.07 17:29:33 INFO  time: compiled root in 47ms
+2023.07.07 17:29:34 INFO  compiling root (1 scala source)
+2023.07.07 17:29:34 INFO  time: compiled root in 37ms
+2023.07.07 17:29:38 INFO  compiling root (1 scala source)
+2023.07.07 17:29:38 INFO  time: compiled root in 52ms
+2023.07.07 21:06:30 INFO  compiling root (1 scala source)
+2023.07.07 21:06:30 INFO  time: compiled root in 0.12s
+2023.07.07 21:07:05 INFO  compiling root (1 scala source)
+2023.07.07 21:07:05 INFO  time: compiled root in 51ms
+2023.07.07 21:07:12 INFO  compiling root (1 scala source)
+2023.07.07 21:07:12 INFO  time: compiled root in 52ms
+2023.07.07 21:07:13 INFO  compiling root (1 scala source)
+2023.07.07 21:07:13 INFO  time: compiled root in 52ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[String]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1352, 1352, 1374)
+2023.07.07 21:07:30 INFO  compiling root (1 scala source)
+2023.07.07 21:07:30 INFO  time: compiled root in 58ms
+2023.07.07 21:07:39 INFO  compiling root (1 scala source)
+2023.07.07 21:07:39 INFO  time: compiled root in 50ms
+2023.07.07 21:07:55 WARN  Using indexes to guess the definition of ProcessorState
+2023.07.07 21:07:59 INFO  compiling root (1 scala source)
+2023.07.07 21:07:59 INFO  time: compiled root in 51ms
+2023.07.07 21:08:02 INFO  compiling root (1 scala source)
+2023.07.07 21:08:02 INFO  time: compiled root in 57ms
+2023.07.07 21:08:26 INFO  compiling root (1 scala source)
+2023.07.07 21:08:26 INFO  time: compiled root in 58ms
+2023.07.07 21:08:36 INFO  compiling root (1 scala source)
+2023.07.07 21:08:36 INFO  time: compiled root in 52ms
+2023.07.07 21:09:43 INFO  compiling root (1 scala source)
+2023.07.07 21:09:43 INFO  time: compiled root in 55ms
+2023.07.07 21:10:01 INFO  compiling root (1 scala source)
+2023.07.07 21:10:01 INFO  time: compiled root in 51ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1576, 1576, 2555)
+2023.07.07 21:10:08 INFO  compiling root (1 scala source)
+2023.07.07 21:10:08 INFO  time: compiled root in 54ms
+2023.07.07 21:10:11 INFO  compiling root (1 scala source)
+2023.07.07 21:10:11 INFO  time: compiled root in 53ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in () => example.ProcessorState[T]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1576, 1578, 1598)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in () => example.ProcessorState[T]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1576, 1579, 1599)
+2023.07.07 21:10:45 INFO  compiling root (1 scala source)
+2023.07.07 21:10:45 INFO  time: compiled root in 25ms
+2023.07.07 21:10:52 INFO  compiling root (1 scala source)
+2023.07.07 21:10:52 INFO  time: compiled root in 25ms
+2023.07.07 21:10:56 INFO  compiling root (1 scala source)
+2023.07.07 21:10:56 INFO  time: compiled root in 27ms
+2023.07.07 21:10:58 INFO  compiling root (1 scala source)
+2023.07.07 21:10:58 INFO  time: compiled root in 25ms
+2023.07.07 21:11:02 INFO  compiling root (1 scala source)
+2023.07.07 21:11:02 INFO  time: compiled root in 27ms
+2023.07.07 21:11:10 INFO  compiling root (1 scala source)
+2023.07.07 21:11:10 INFO  time: compiled root in 49ms
+2023.07.07 21:11:10 INFO  compiling root (1 scala source)
+2023.07.07 21:11:10 INFO  time: compiled root in 38ms
+2023.07.07 21:11:20 INFO  compiling root (1 scala source)
+2023.07.07 21:11:20 INFO  time: compiled root in 55ms
+2023.07.07 21:11:26 INFO  compiling root (1 scala source)
+2023.07.07 21:11:26 INFO  time: compiled root in 52ms
+2023.07.07 21:11:54 INFO  compiling root (1 scala source)
+2023.07.07 21:11:54 INFO  time: compiled root in 58ms
+2023.07.07 21:12:04 INFO  compiling root (1 scala source)
+2023.07.07 21:12:04 INFO  time: compiled root in 57ms
+2023.07.07 21:12:15 INFO  compiling root (1 scala source)
+2023.07.07 21:12:15 INFO  time: compiled root in 52ms
+2023.07.07 21:12:15 WARN  Using indexes to guess the definition of ProcessorState
+2023.07.07 21:12:19 INFO  compiling root (1 scala source)
+2023.07.07 21:12:19 INFO  time: compiled root in 57ms
+2023.07.07 21:12:21 INFO  compiling root (1 scala source)
+2023.07.07 21:12:21 INFO  time: compiled root in 57ms
+2023.07.07 21:12:24 INFO  compiling root (1 scala source)
+2023.07.07 21:12:24 INFO  time: compiled root in 51ms
+2023.07.07 21:12:28 INFO  compiling root (1 scala source)
+2023.07.07 21:12:28 INFO  time: compiled root in 54ms
+2023.07.07 21:12:46 INFO  compiling root (1 scala source)
+2023.07.07 21:12:46 INFO  time: compiled root in 49ms
+2023.07.07 21:12:48 INFO  compiling root (1 scala source)
+2023.07.07 21:12:48 INFO  time: compiled root in 52ms
+2023.07.07 21:12:56 INFO  compiling root (1 scala source)
+2023.07.07 21:12:56 INFO  time: compiled root in 71ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[I,T]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 962, 962, 981)
+2023.07.07 21:13:02 INFO  compiling root (1 scala source)
+2023.07.07 21:13:02 INFO  time: compiled root in 54ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[<error>,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1091, 1091, 1117)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[String,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1091, 1091, 1122)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1114, 1114, 1304)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1114, 1114, 1130)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1114, 1114, 1123)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1114, 1114, 1124)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1114, 1114, 1126)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[String]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1114, 1114, 1128)
+2023.07.07 21:13:25 INFO  compiling root (1 scala source)
+2023.07.07 21:13:25 INFO  time: compiled root in 64ms
+Jul 07, 2023 9:13:25 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.07.07 21:13:44 INFO  compiling root (1 scala source)
+2023.07.07 21:13:44 INFO  time: compiled root in 49ms
+2023.07.07 21:13:49 WARN  Using indexes to guess the definition of String
+2023.07.07 21:13:51 INFO  compiling root (1 scala source)
+2023.07.07 21:13:51 INFO  time: compiled root in 46ms
+2023.07.07 21:26:27 WARN  Using indexes to guess the definition of String
+2023.07.07 21:26:29 INFO  compiling root (1 scala source)
+2023.07.07 21:26:29 INFO  time: compiled root in 0.12s
+2023.07.07 21:26:44 INFO  compiling root (1 scala source)
+2023.07.07 21:26:44 INFO  time: compiled root in 64ms
+2023.07.07 21:26:49 INFO  compiling root (1 scala source)
+2023.07.07 21:26:49 INFO  time: compiled root in 57ms
+2023.07.07 21:26:58 INFO  compiling root (1 scala source)
+2023.07.07 21:26:58 INFO  time: compiled root in 58ms
+2023.07.07 21:27:02 INFO  compiling root (1 scala source)
+2023.07.07 21:27:02 INFO  time: compiled root in 48ms
+2023.07.07 21:27:08 INFO  compiling root (1 scala source)
+2023.07.07 21:27:08 INFO  time: compiled root in 47ms
+2023.07.07 21:27:15 INFO  compiling root (1 scala source)
+2023.07.07 21:27:15 INFO  time: compiled root in 50ms
+2023.07.07 21:27:26 INFO  compiling root (1 scala source)
+2023.07.07 21:27:26 INFO  time: compiled root in 56ms
+2023.07.07 21:27:28 INFO  compiling root (1 scala source)
+2023.07.07 21:27:28 INFO  time: compiled root in 60ms
+2023.07.07 21:27:32 INFO  compiling root (1 scala source)
+2023.07.07 21:27:32 INFO  time: compiled root in 48ms
+2023.07.07 21:27:40 INFO  compiling root (1 scala source)
+2023.07.07 21:27:40 INFO  time: compiled root in 53ms
+2023.07.07 21:27:44 INFO  compiling root (1 scala source)
+2023.07.07 21:27:44 INFO  time: compiled root in 46ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[I,T]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1620, 1620, 1639)
+2023.07.07 21:27:49 INFO  compiling root (1 scala source)
+2023.07.07 21:27:49 INFO  time: compiled root in 53ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in example.ProcessorState[I,T]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1754, 1754, 1773)
+2023.07.07 21:27:56 INFO  compiling root (1 scala source)
+2023.07.07 21:27:56 INFO  time: compiled root in 50ms
+2023.07.07 21:28:13 WARN  Using indexes to guess the definition of StatefulProcessor
+2023.07.07 21:28:24 INFO  compiling root (1 scala source)
+2023.07.07 21:28:24 INFO  time: compiled root in 59ms
+2023.07.07 21:28:48 INFO  compiling root (1 scala source)
+2023.07.07 21:28:48 INFO  time: compiled root in 25ms
+2023.07.07 21:28:51 INFO  compiling root (1 scala source)
+2023.07.07 21:28:51 INFO  time: compiled root in 50ms
+2023.07.07 21:28:56 INFO  compiling root (1 scala source)
+2023.07.07 21:28:56 INFO  time: compiled root in 46ms
+2023.07.07 21:29:01 INFO  compiling root (1 scala source)
+2023.07.07 21:29:01 INFO  time: compiled root in 48ms
+2023.07.07 21:29:25 INFO  compiling root (1 scala source)
+2023.07.07 21:29:25 INFO  time: compiled root in 53ms
+2023.07.07 21:29:25 INFO  compiling root (1 scala source)
+2023.07.07 21:29:25 INFO  time: compiled root in 33ms
+2023.07.07 21:29:31 INFO  compiling root (1 scala source)
+2023.07.07 21:29:31 INFO  time: compiled root in 51ms
+2023.07.07 21:29:52 INFO  compiling root (1 scala source)
+2023.07.07 21:29:52 INFO  time: compiled root in 0.52s
+2023.07.07 21:30:56 INFO  compiling root (1 scala source)
+2023.07.07 21:30:56 INFO  time: compiled root in 0.46s
+2023.07.07 21:31:24 INFO  compiling root (1 scala source)
+2023.07.07 21:31:24 INFO  time: compiled root in 0.42s
+2023.07.07 21:31:34 INFO  compiling root (1 scala source)
+2023.07.07 21:31:34 INFO  time: compiled root in 52ms
+2023.07.07 21:31:37 INFO  compiling root (1 scala source)
+2023.07.07 21:31:37 INFO  time: compiled root in 45ms
+2023.07.07 21:31:39 INFO  compiling root (1 scala source)
+2023.07.07 21:31:39 INFO  time: compiled root in 41ms
+2023.07.07 21:31:43 INFO  compiling root (1 scala source)
+2023.07.07 21:31:43 INFO  time: compiled root in 49ms
+2023.07.07 21:31:43 WARN  Using indexes to guess the definition of Result
+2023.07.07 21:31:49 INFO  compiling root (1 scala source)
+2023.07.07 21:31:49 INFO  time: compiled root in 41ms
+2023.07.07 21:31:51 INFO  compiling root (1 scala source)
+2023.07.07 21:31:51 INFO  time: compiled root in 48ms
+2023.07.07 21:31:55 INFO  compiling root (1 scala source)
+2023.07.07 21:31:55 INFO  time: compiled root in 50ms
+2023.07.07 21:31:56 INFO  compiling root (1 scala source)
+2023.07.07 21:31:56 INFO  time: compiled root in 48ms
+2023.07.07 21:32:03 INFO  compiling root (1 scala source)
+2023.07.07 21:32:03 INFO  time: compiled root in 48ms
+2023.07.07 21:32:05 INFO  compiling root (1 scala source)
+2023.07.07 21:32:05 INFO  time: compiled root in 46ms
+2023.07.07 21:32:07 INFO  compiling root (1 scala source)
+2023.07.07 21:32:07 INFO  time: compiled root in 40ms
+2023.07.07 21:32:07 WARN  Using indexes to guess the definition of State
+2023.07.07 21:32:08 INFO  compiling root (1 scala source)
+2023.07.07 21:32:08 INFO  time: compiled root in 36ms
+2023.07.07 21:32:13 INFO  compiling root (1 scala source)
+2023.07.07 21:32:13 INFO  time: compiled root in 47ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1572, 1572, 1608)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala in Option[example.StatefulProcessor.State[I,T]]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala, 1572, 1572, 1609)
+2023.07.07 21:32:13 INFO  compiling root (1 scala source)
+2023.07.07 21:32:13 INFO  time: compiled root in 32ms
+Jul 07, 2023 9:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7722
+2023.07.07 21:32:28 INFO  compiling root (1 scala source)
+2023.07.07 21:32:28 INFO  time: compiled root in 43ms
+2023.07.07 21:32:32 INFO  compiling root (1 scala source)
+2023.07.07 21:32:32 INFO  time: compiled root in 41ms
+2023.07.07 21:32:35 INFO  compiling root (1 scala source)
+2023.07.07 21:32:35 INFO  time: compiled root in 37ms
+2023.07.07 21:32:37 INFO  compiling root (1 scala source)
+2023.07.07 21:32:37 INFO  time: compiled root in 48ms
+Jul 07, 2023 9:32:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7806
+2023.07.07 21:32:40 INFO  compiling root (1 scala source)
+2023.07.07 21:32:40 INFO  time: compiled root in 50ms
+2023.07.07 21:32:58 INFO  compiling root (1 scala source)
+2023.07.07 21:32:58 INFO  time: compiled root in 40ms
+2023.07.07 21:32:59 INFO  compiling root (1 scala source)
+2023.07.07 21:32:59 INFO  time: compiled root in 0.75s
+2023.07.07 21:33:50 INFO  compiling root (1 scala source)
+2023.07.07 21:33:50 INFO  time: compiled root in 0.18s
+2023.07.07 21:34:02 INFO  compiling root (3 scala sources)
+2023.07.07 21:34:02 INFO  time: compiled root in 46ms
+2023.07.07 21:34:02 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 21:34:05 INFO  compiling root (3 scala sources)
+2023.07.07 21:34:05 INFO  time: compiled root in 56ms
+2023.07.07 21:34:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/Main.scala
+2023.07.07 21:34:25 INFO  compiling root (3 scala sources)
+2023.07.07 21:34:25 INFO  time: compiled root in 0.56s
+2023.07.07 21:34:31 INFO  compiling root (1 scala source)
+2023.07.07 21:34:31 INFO  time: compiled root in 37ms
+2023.07.07 21:34:43 INFO  compiling root (1 scala source)
+2023.07.07 21:34:43 INFO  time: compiled root in 0.34s
+2023.07.07 21:34:54 INFO  compiling root (1 scala source)
+2023.07.07 21:34:54 INFO  time: compiled root in 26ms
+2023.07.07 21:35:27 WARN  Using indexes to guess the definition of Result
+2023.07.07 21:35:39 INFO  compiling root (1 scala source)
+2023.07.07 21:35:39 INFO  time: compiled root in 0.35s
+2023.07.07 21:35:46 INFO  compiling root (1 scala source)
+2023.07.07 21:35:46 INFO  time: compiled root in 0.32s
+2023.07.07 21:37:07 INFO  compiling root (1 scala source)
+2023.07.07 21:37:07 INFO  time: compiled root in 40ms
+2023.07.07 21:37:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:37:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:37:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:37:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:37:47 INFO  compiling root (1 scala source)
+2023.07.07 21:37:47 INFO  time: compiled root in 42ms
+2023.07.07 21:37:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:37:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:37:56 INFO  compiling root (1 scala source)
+2023.07.07 21:37:56 INFO  time: compiled root in 40ms
+2023.07.07 21:37:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:16 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:16 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:17 INFO  compiling root (1 scala source)
+2023.07.07 21:38:17 INFO  time: compiled root in 39ms
+2023.07.07 21:38:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:27 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:28 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:32 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 INFO  compiling root (1 scala source)
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 INFO  time: compiled root in 42ms
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:38:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:02 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:02 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+Jul 07, 2023 9:39:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8502
+2023.07.07 21:39:05 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:05 INFO  compiling root (1 scala source)
+2023.07.07 21:39:05 INFO  time: compiled root in 0.37s
+2023.07.07 21:39:05 INFO  compiling root (1 scala source)
+2023.07.07 21:39:05 INFO  time: compiled root in 26ms
+2023.07.07 21:39:06 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:39:08 INFO  compiling root (1 scala source)
+2023.07.07 21:39:08 INFO  time: compiled root in 0.33s
+2023.07.07 21:39:08 INFO  compiling root (1 scala source)
+2023.07.07 21:39:08 INFO  time: compiled root in 25ms
+2023.07.07 21:39:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:40:03 INFO  compiling root (1 scala source)
+2023.07.07 21:40:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:40:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:40:03 INFO  time: compiled root in 0.34s
+2023.07.07 21:40:03 INFO  compiling root (1 scala source)
+2023.07.07 21:40:03 INFO  time: compiled root in 26ms
+2023.07.07 21:40:04 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:40:10 INFO  compiling root (1 scala source)
+2023.07.07 21:40:10 INFO  time: compiled root in 0.34s
+2023.07.07 21:40:10 INFO  compiling root (1 scala source)
+2023.07.07 21:40:10 INFO  time: compiled root in 25ms
+2023.07.07 21:40:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:40:21 INFO  compiling root (3 scala sources)
+2023.07.07 21:40:21 INFO  time: compiled root in 53ms
+2023.07.07 21:40:33 INFO  compiling root (3 scala sources)
+2023.07.07 21:40:33 INFO  time: compiled root in 75ms
+2023.07.07 21:40:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala
+2023.07.07 21:41:12 INFO  compiling root (3 scala sources)
+2023.07.07 21:41:12 INFO  time: compiled root in 53ms
+2023.07.07 21:41:31 INFO  compiling root (3 scala sources)
+2023.07.07 21:41:31 INFO  time: compiled root in 53ms
+2023.07.07 21:41:31 INFO  compiling root (3 scala sources)
+2023.07.07 21:41:31 INFO  time: compiled root in 41ms
+2023.07.07 21:51:52 INFO  compiling root (3 scala sources)
+2023.07.07 21:51:52 INFO  time: compiled root in 0.1s
+2023.07.07 22:29:28 INFO  compiling root (3 scala sources)
+2023.07.07 22:29:28 INFO  time: compiled root in 62ms
+2023.07.07 22:29:47 INFO  compiling root (3 scala sources)
+2023.07.07 22:29:47 INFO  time: compiled root in 0.99s
+2023.07.07 22:30:54 INFO  compiling root (1 scala source)
+2023.07.07 22:30:54 INFO  time: compiled root in 0.41s
+2023.07.07 22:30:54 INFO  compiling root (1 scala source)
+2023.07.07 22:30:54 INFO  time: compiled root in 26ms
+2023.07.07 22:31:33 WARN  Using indexes to guess the definition of String
+2023.07.07 22:31:34 INFO  compiling root (1 scala source)
+2023.07.07 22:31:34 INFO  time: compiled root in 49ms
+2023.07.07 22:31:57 INFO  compiling root (1 scala source)
+2023.07.07 22:31:57 INFO  time: compiled root in 35ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1476, 1476, 1505)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1476, 1476, 1506)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala in example.StatefulProcessor[I,T]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/example/StatefulProcessor.scala, 1476, 1476, 1499)
+2023.07.07 22:32:20 INFO  compiling root (1 scala source)
+2023.07.07 22:32:20 INFO  time: compiled root in 0.36s
+2023.07.07 22:32:20 INFO  compiling root (1 scala source)
+2023.07.07 22:32:20 INFO  time: compiled root in 27ms
+2023.07.07 22:32:42 INFO  compiling root (3 scala sources)
+2023.07.07 22:32:42 INFO  time: compiled root in 0.56s
+2023.07.07 22:32:52 INFO  compiling root (1 scala source)
+2023.07.07 22:32:52 INFO  time: compiled root in 0.35s
+2023.07.07 22:32:59 WARN  Using indexes to guess the definition of subscription
+2023.07.07 22:33:00 INFO  compiling root (1 scala source)
+2023.07.07 22:33:00 INFO  time: compiled root in 0.36s
+2023.07.07 22:33:02 INFO  compiling root (1 scala source)
+2023.07.07 22:33:02 INFO  time: compiled root in 0.37s
+2023.07.07 22:33:04 INFO  compiling root (1 scala source)
+2023.07.07 22:33:04 INFO  time: compiled root in 0.31s
