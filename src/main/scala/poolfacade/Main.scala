@@ -10,14 +10,17 @@ object Main extends App {
   tryProcessor()
 
   def tryProcessor(): Unit = {
-    val poolContext = PoolContext("poolName", "travelAgencyId", "iataCode")
+    val resourcePool = new BspPool()
+    //val resourcePool = new AmadeusPool()
+
+    val poolContext = PoolContext[resourcePool.ResourceType](resourcePool, "travelAgencyId", "iataCode")
 
     val publisher: SubmissionPublisher[PoolCommand] = new SubmissionPublisher()
-    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[CookieMap], PoolContext] (Some(poolContext)) {
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
       subscription => 
         InitialState(subscription)
     }
-    val subscriber: EndSubscriber[Option[CookieMap]] = new EndSubscriber()
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
     val items: List[PoolCommand] = List(
         PoolCommand.Use,
         PoolCommand.Release
@@ -35,22 +38,54 @@ object Main extends App {
   }
 }
 
-case class PoolContext(gds: String, travelAgencyId: String, iataCode: String)
+case class PoolContext[R <: Resource](resourcePool: ResourcePool[R], travelAgencyId: String, iataCode: String)
 trait PoolCommand
 object PoolCommand {
     case object Use extends PoolCommand
     case object Release extends PoolCommand
 }
 
-case class CookieMap(payload: String)
+trait Resource
+case class CookieMap(payload: String) extends Resource
+case class Token(payload: String) extends Resource
 
-case class InitialState(subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[CookieMap], PoolContext] {
-  def handleItem(command: PoolCommand, context: Option[PoolContext]): StatefulProcessor.Result[PoolCommand, Option[CookieMap], PoolContext] = {
+trait ResourcePool[R <: Resource] {
+    type ResourceType = R
+
+    def reserve(): R
+    def use(): Unit
+    def unreserve(): Unit
+}
+
+class BspPool extends ResourcePool[CookieMap] {
+    override def reserve(): CookieMap = {
+        CookieMap("abc")
+    }
+    override def use(): Unit = {}
+    override def unreserve(): Unit = {}
+}
+
+class AmadeusPool extends ResourcePool[Token] {
+    override def reserve(): Token = {
+        Token("abc")
+    }
+    override def use(): Unit = {}
+    override def unreserve(): Unit = {}
+}
+
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext[R]] = {
     println("Im initial state")
     command match {
-        case PoolCommand.Use => StatefulProcessor.Result(
-            UsedState(subscription), Some(CookieMap("xyz")), true
-        )
+        case PoolCommand.Use => 
+            context match {
+                case Some(c) => StatefulProcessor.Result(
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                )
+                case _ => StatefulProcessor.Result(
+                    this, None, true
+                )
+            }
         case _ => StatefulProcessor.Result(
             this, None, true
         )
@@ -58,8 +93,8 @@ case class InitialState(subscription: Subscription) extends StatefulProcessor.St
   }
 }
 
-case class UsedState(subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[CookieMap], PoolContext] {
-  def handleItem(command: PoolCommand, context: Option[PoolContext]): StatefulProcessor.Result[PoolCommand, Option[CookieMap], PoolContext] = {
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext[R]] = {
     println("UsedState")
     command match {
         case PoolCommand.Release => StatefulProcessor.Result(
@@ -72,8 +107,8 @@ case class UsedState(subscription: Subscription) extends StatefulProcessor.State
   }
 }
 
-case class ReleasedState(subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[CookieMap], PoolContext] {
-  def handleItem(command: PoolCommand, context: Option[PoolContext]): StatefulProcessor.Result[PoolCommand, Option[CookieMap], PoolContext] = {
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext[R]] = {
     println("ReleasedState")
     StatefulProcessor.Result(
         this, None, false

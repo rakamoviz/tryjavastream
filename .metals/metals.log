@@ -1571,3 +1571,292 @@ something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/ma
 2023.07.08 01:31:04 INFO  time: compiled root in 0.4s
 2023.07.08 01:31:15 INFO  compiling root (1 scala source)
 2023.07.08 01:31:15 INFO  time: compiled root in 0.4s
+2023.07.08 01:34:50 INFO  compiling root (1 scala source)
+2023.07.08 01:34:50 INFO  time: compiled root in 40ms
+2023.07.08 01:35:03 INFO  compiling root (1 scala source)
+2023.07.08 01:35:03 INFO  time: compiled root in 31ms
+2023.07.08 01:35:20 INFO  compiling root (1 scala source)
+2023.07.08 01:35:20 INFO  time: compiled root in 0.49s
+2023.07.08 01:35:36 INFO  compiling root (1 scala source)
+2023.07.08 01:35:36 INFO  time: compiled root in 46ms
+2023.07.08 01:36:14 INFO  compiling root (1 scala source)
+2023.07.08 01:36:14 INFO  time: compiled root in 52ms
+2023.07.08 01:36:23 INFO  compiling root (1 scala source)
+2023.07.08 01:36:23 INFO  time: compiled root in 48ms
+2023.07.08 01:36:55 INFO  compiling root (1 scala source)
+2023.07.08 01:36:55 INFO  time: compiled root in 50ms
+Jul 08, 2023 1:37:05 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 08, 2023 1:37:05 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Jul 08, 2023 1:37:16 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 08, 2023 1:37:16 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Jul 08, 2023 1:37:26 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 08, 2023 1:37:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2023.07.08 01:37:29 INFO  compiling root (1 scala source)
+2023.07.08 01:37:29 INFO  time: compiled root in 52ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.ResourcePool[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1461, 1461, 1475)
+2023.07.08 01:37:54 INFO  compiling root (1 scala source)
+2023.07.08 01:37:54 INFO  time: compiled root in 42ms
+2023.07.08 01:37:59 INFO  compiling root (1 scala source)
+2023.07.08 01:37:59 INFO  time: compiled root in 41ms
+2023.07.08 01:37:59 WARN  Using indexes to guess the definition of reserve
+2023.07.08 01:38:00 INFO  compiling root (1 scala source)
+2023.07.08 01:38:00 INFO  time: compiled root in 44ms
+2023.07.08 01:38:24 INFO  compiling root (1 scala source)
+2023.07.08 01:38:24 INFO  time: compiled root in 64ms
+2023.07.08 01:38:33 INFO  compiling root (1 scala source)
+2023.07.08 01:38:33 INFO  time: compiled root in 48ms
+Jul 08, 2023 1:38:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15996
+2023.07.08 01:39:01 INFO  compiling root (1 scala source)
+2023.07.08 01:39:01 INFO  time: compiled root in 24ms
+Jul 08, 2023 1:39:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16042
+2023.07.08 01:39:22 INFO  compiling root (1 scala source)
+2023.07.08 01:39:22 INFO  time: compiled root in 50ms
+2023.07.08 01:39:31 INFO  compiling root (1 scala source)
+2023.07.08 01:39:31 INFO  time: compiled root in 50ms
+2023.07.08 01:39:48 INFO  compiling root (1 scala source)
+2023.07.08 01:39:48 INFO  time: compiled root in 47ms
+2023.07.08 01:40:19 INFO  compiling root (1 scala source)
+2023.07.08 01:40:19 INFO  time: compiled root in 23ms
+2023.07.08 01:42:21 INFO  compiling root (1 scala source)
+2023.07.08 01:42:21 INFO  time: compiled root in 82ms
+2023.07.08 01:42:53 INFO  compiling root (1 scala source)
+2023.07.08 01:42:53 INFO  time: compiled root in 29ms
+2023.07.08 01:43:06 INFO  compiling root (1 scala source)
+2023.07.08 01:43:06 INFO  time: compiled root in 27ms
+2023.07.08 01:43:11 INFO  compiling root (1 scala source)
+2023.07.08 01:43:11 INFO  time: compiled root in 30ms
+2023.07.08 01:43:35 INFO  compiling root (1 scala source)
+2023.07.08 01:43:35 INFO  time: compiled root in 31ms
+2023.07.08 01:43:39 INFO  compiling root (1 scala source)
+2023.07.08 01:43:39 INFO  time: compiled root in 28ms
+Jul 08, 2023 1:43:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16639
+2023.07.08 01:43:50 INFO  compiling root (1 scala source)
+2023.07.08 01:43:50 INFO  time: compiled root in 32ms
+2023.07.08 01:44:13 INFO  compiling root (1 scala source)
+2023.07.08 01:44:13 INFO  time: compiled root in 83ms
+2023.07.08 01:44:19 INFO  compiling root (1 scala source)
+2023.07.08 01:44:19 INFO  time: compiled root in 69ms
+2023.07.08 01:44:49 INFO  compiling root (1 scala source)
+2023.07.08 01:44:49 INFO  time: compiled root in 68ms
+2023.07.08 01:44:53 INFO  compiling root (1 scala source)
+2023.07.08 01:44:53 INFO  time: compiled root in 53ms
+2023.07.08 01:45:11 WARN  Using indexes to guess the definition of resourcePool
+2023.07.08 01:45:12 INFO  compiling root (1 scala source)
+2023.07.08 01:45:12 INFO  time: compiled root in 49ms
+2023.07.08 01:45:14 INFO  compiling root (1 scala source)
+2023.07.08 01:45:14 INFO  time: compiled root in 51ms
+2023.07.08 01:45:33 INFO  compiling root (1 scala source)
+2023.07.08 01:45:33 INFO  time: compiled root in 50ms
+2023.07.08 01:45:46 INFO  compiling root (1 scala source)
+2023.07.08 01:45:46 INFO  time: compiled root in 49ms
+2023.07.08 01:45:58 INFO  compiling root (1 scala source)
+2023.07.08 01:45:58 INFO  time: compiled root in 51ms
+2023.07.08 01:46:26 INFO  compiling root (1 scala source)
+2023.07.08 01:46:26 INFO  time: compiled root in 52ms
+2023.07.08 01:46:40 INFO  compiling root (1 scala source)
+2023.07.08 01:46:40 INFO  time: compiled root in 52ms
+2023.07.08 01:47:43 INFO  compiling root (1 scala source)
+2023.07.08 01:47:43 INFO  time: compiled root in 49ms
+2023.07.08 01:49:19 INFO  compiling root (1 scala source)
+2023.07.08 01:49:19 INFO  time: compiled root in 80ms
+2023.07.08 01:49:24 INFO  compiling root (1 scala source)
+2023.07.08 01:49:24 INFO  time: compiled root in 54ms
+2023.07.08 01:49:30 INFO  compiling root (1 scala source)
+2023.07.08 01:49:30 INFO  time: compiled root in 57ms
+2023.07.08 01:49:35 INFO  compiling root (1 scala source)
+2023.07.08 01:49:35 INFO  time: compiled root in 45ms
+2023.07.08 01:49:44 INFO  compiling root (1 scala source)
+2023.07.08 01:49:44 INFO  time: compiled root in 48ms
+2023.07.08 01:49:57 INFO  compiling root (1 scala source)
+2023.07.08 01:49:57 INFO  time: compiled root in 52ms
+2023.07.08 01:53:45 INFO  compiling root (1 scala source)
+2023.07.08 01:53:45 INFO  time: compiled root in 0.1s
+2023.07.08 01:54:32 INFO  compiling root (1 scala source)
+2023.07.08 01:54:32 INFO  time: compiled root in 56ms
+2023.07.08 01:55:34 INFO  compiling root (1 scala source)
+2023.07.08 01:55:34 INFO  time: compiled root in 54ms
+2023.07.08 01:55:41 INFO  compiling root (1 scala source)
+2023.07.08 01:55:41 INFO  time: compiled root in 55ms
+2023.07.08 01:56:07 INFO  compiling root (1 scala source)
+2023.07.08 01:56:07 INFO  time: compiled root in 49ms
+2023.07.08 01:56:19 INFO  compiling root (1 scala source)
+2023.07.08 01:56:19 INFO  time: compiled root in 75ms
+2023.07.08 01:56:27 INFO  compiling root (1 scala source)
+2023.07.08 01:56:27 INFO  time: compiled root in 65ms
+2023.07.08 01:56:35 INFO  compiling root (1 scala source)
+2023.07.08 01:56:35 INFO  time: compiled root in 58ms
+2023.07.08 01:56:43 INFO  compiling root (1 scala source)
+2023.07.08 01:56:43 INFO  time: compiled root in 50ms
+2023.07.08 01:56:43 INFO  compiling root (1 scala source)
+2023.07.08 01:56:43 INFO  time: compiled root in 33ms
+2023.07.08 01:57:36 INFO  compiling root (1 scala source)
+2023.07.08 01:57:36 INFO  time: compiled root in 86ms
+2023.07.08 01:57:36 INFO  compiling root (1 scala source)
+2023.07.08 01:57:36 INFO  time: compiled root in 30ms
+2023.07.08 01:57:36 INFO  compiling root (1 scala source)
+2023.07.08 01:57:36 INFO  time: compiled root in 30ms
+2023.07.08 21:00:42 INFO  compiling root (1 scala source)
+2023.07.08 21:00:42 INFO  time: compiled root in 0.19s
+2023.07.08 21:00:47 INFO  compiling root (1 scala source)
+2023.07.08 21:00:47 INFO  time: compiled root in 60ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.ResourcePool[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1520, 1520, 1718)
+2023.07.08 21:00:51 INFO  compiling root (1 scala source)
+2023.07.08 21:00:51 INFO  time: compiled root in 60ms
+2023.07.08 21:00:56 INFO  compiling root (1 scala source)
+2023.07.08 21:00:56 INFO  time: compiled root in 61ms
+2023.07.08 21:01:49 INFO  compiling root (1 scala source)
+2023.07.08 21:01:49 INFO  time: compiled root in 53ms
+2023.07.08 21:01:49 INFO  compiling root (1 scala source)
+2023.07.08 21:01:49 INFO  time: compiled root in 52ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.ResourcePool[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1103, 1103, 3343)
+2023.07.08 21:01:59 INFO  compiling root (1 scala source)
+2023.07.08 21:01:59 INFO  time: compiled root in 69ms
+2023.07.08 21:02:16 INFO  compiling root (1 scala source)
+2023.07.08 21:02:16 INFO  time: compiled root in 55ms
+2023.07.08 21:02:46 INFO  compiling root (1 scala source)
+2023.07.08 21:02:46 INFO  time: compiled root in 83ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 540, 540, 640)
+2023.07.08 21:03:09 INFO  compiling root (1 scala source)
+2023.07.08 21:03:09 INFO  time: compiled root in 55ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1924, 1924, 2481)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1924, 1924, 1945)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[R]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1924, 1924, 1938)
+2023.07.08 21:03:49 INFO  compiling root (1 scala source)
+2023.07.08 21:03:49 INFO  time: compiled root in 58ms
+2023.07.08 21:04:35 INFO  compiling root (1 scala source)
+2023.07.08 21:04:35 INFO  time: compiled root in 50ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 3197, 3197, 3374)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 3197, 3197, 3218)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 3197, 3197, 3211)
+2023.07.08 21:04:54 INFO  compiling root (1 scala source)
+2023.07.08 21:04:54 INFO  time: compiled root in 52ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 2671, 2671, 3016)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 2671, 2671, 2692)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 2671, 2671, 2685)
+2023.07.08 21:05:03 INFO  compiling root (1 scala source)
+2023.07.08 21:05:03 INFO  time: compiled root in 0.1s
+2023.07.08 21:05:15 INFO  compiling root (1 scala source)
+2023.07.08 21:05:15 INFO  time: compiled root in 45ms
+2023.07.08 21:05:20 INFO  compiling root (1 scala source)
+2023.07.08 21:05:20 INFO  time: compiled root in 53ms
+2023.07.08 21:05:25 INFO  compiling root (1 scala source)
+2023.07.08 21:05:25 INFO  time: compiled root in 54ms
+2023.07.08 21:05:25 INFO  compiling root (1 scala source)
+2023.07.08 21:05:25 INFO  time: compiled root in 36ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 3160, 3160, 3412)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 3160, 3160, 3181)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[R]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 3160, 3160, 3174)
+2023.07.08 21:05:34 INFO  compiling root (1 scala source)
+2023.07.08 21:05:34 INFO  time: compiled root in 54ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 2616, 2616, 3036)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 2616, 2616, 2637)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[R]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 2616, 2616, 2630)
+2023.07.08 21:05:41 INFO  compiling root (1 scala source)
+2023.07.08 21:05:41 INFO  time: compiled root in 49ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1854, 1854, 2496)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1854, 1854, 1875)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala in poolfacade.PoolContext[R]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala, 1854, 1854, 1868)
+2023.07.08 21:05:49 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:64:124: stale bloop error: class PoolContext takes type parameters
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext] {
+                                                                                                                           ^^^^^^^^^^^
+2023.07.08 21:05:49 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:65:123: stale bloop error: class PoolContext takes type parameters
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext] = {
+                                                                                                                          ^^^^^^^^^^^
+2023.07.08 21:05:49 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:64:124: stale bloop error: class PoolContext takes type parameters
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext] {
+                                                                                                                           ^^^^^^^^^^^
+2023.07.08 21:05:49 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:65:123: stale bloop error: class PoolContext takes type parameters
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext] = {
+                                                                                                                          ^^^^^^^^^^^
+2023.07.08 21:05:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:64:124: stale bloop error: class PoolContext takes type parameters
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext] {
+                                                                                                                           ^^^^^^^^^^^
+2023.07.08 21:05:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:65:123: stale bloop error: class PoolContext takes type parameters
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext] = {
+                                                                                                                          ^^^^^^^^^^^
+2023.07.08 21:05:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:64:124: stale bloop error: class PoolContext takes type parameters
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext] {
+                                                                                                                           ^^^^^^^^^^^
+2023.07.08 21:05:50 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala:65:123: stale bloop error: class PoolContext takes type parameters
+  def handleItem(command: PoolCommand, context: Option[PoolContext[R]]): StatefulProcessor.Result[PoolCommand, Option[R], PoolContext] = {
+                                                                                                                          ^^^^^^^^^^^
+2023.07.08 21:05:55 INFO  compiling root (1 scala source)
+2023.07.08 21:05:55 INFO  time: compiled root in 0.56s
+2023.07.08 21:06:33 INFO  compiling root (1 scala source)
+2023.07.08 21:06:33 INFO  time: compiled root in 0.41s
+2023.07.08 21:06:37 INFO  compiling root (1 scala source)
+2023.07.08 21:06:37 INFO  time: compiled root in 68ms
+Jul 08, 2023 9:06:37 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.07.08 21:06:42 INFO  compiling root (1 scala source)
+2023.07.08 21:06:42 INFO  time: compiled root in 0.4s
+2023.07.08 21:07:06 INFO  compiling root (1 scala source)
+2023.07.08 21:07:06 INFO  time: compiled root in 0.43s
+2023.07.08 21:07:11 INFO  compiling root (1 scala source)
+2023.07.08 21:07:11 INFO  time: compiled root in 41ms
+2023.07.08 21:07:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala
+2023.07.08 21:09:00 INFO  compiling root (1 scala source)
+2023.07.08 21:09:00 INFO  time: compiled root in 0.51s
+2023.07.08 21:09:02 INFO  compiling root (1 scala source)
+2023.07.08 21:09:02 INFO  time: compiled root in 0.43s
+2023.07.08 21:09:14 INFO  compiling root (1 scala source)
+2023.07.08 21:09:14 INFO  time: compiled root in 0.44s
+2023.07.08 21:09:36 INFO  compiling root (1 scala source)
+2023.07.08 21:09:36 INFO  time: compiled root in 0.46s
+2023.07.08 21:09:50 INFO  compiling root (1 scala source)
+2023.07.08 21:09:50 INFO  time: compiled root in 45ms
+2023.07.08 21:09:54 INFO  compiling root (1 scala source)
+2023.07.08 21:09:54 INFO  time: compiled root in 38ms
+2023.07.08 21:10:37 INFO  compiling root (1 scala source)
+2023.07.08 21:10:37 INFO  time: compiled root in 44ms
+2023.07.08 21:10:39 INFO  compiling root (1 scala source)
+2023.07.08 21:10:39 INFO  time: compiled root in 41ms
+2023.07.08 21:10:44 INFO  compiling root (1 scala source)
+2023.07.08 21:10:44 INFO  time: compiled root in 49ms
+2023.07.08 21:10:53 INFO  compiling root (1 scala source)
+2023.07.08 21:10:53 INFO  time: compiled root in 0.47s
+2023.07.08 21:10:58 INFO  compiling root (1 scala source)
+2023.07.08 21:10:58 INFO  time: compiled root in 0.4s
+2023.07.08 21:10:59 INFO  compiling root (1 scala source)
+2023.07.08 21:10:59 INFO  time: compiled root in 46ms
+2023.07.08 21:10:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala
+2023.07.08 21:10:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala
+2023.07.08 21:11:01 INFO  compiling root (1 scala source)
+2023.07.08 21:11:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala
+2023.07.08 21:11:01 INFO  time: compiled root in 0.42s
