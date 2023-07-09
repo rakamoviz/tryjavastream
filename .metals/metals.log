@@ -1860,3 +1860,1282 @@ INFO: compiler crashed due to an error in the Scala compiler, retrying with new 
 2023.07.08 21:11:01 INFO  compiling root (1 scala source)
 2023.07.08 21:11:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade/Main.scala
 2023.07.08 21:11:01 INFO  time: compiled root in 0.42s
+2023.07.08 22:14:50 INFO  compiling root (1 scala source)
+2023.07.08 22:14:51 INFO  time: compiled root in 1.17s
+2023.07.08 22:14:56 INFO  compiling root (5 scala sources)
+2023.07.08 22:14:56 INFO  time: compiled root in 31ms
+2023.07.08 22:15:00 INFO  compiling root (5 scala sources)
+2023.07.08 22:15:00 INFO  time: compiled root in 0.99s
+2023.07.08 22:15:09 INFO  compiling root (1 scala source)
+2023.07.08 22:15:09 INFO  time: compiled root in 0.48s
+2023.07.08 22:15:16 INFO  compiling root (1 scala source)
+2023.07.08 22:15:16 INFO  time: compiled root in 46ms
+Jul 08, 2023 10:15:23 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 08, 2023 10:15:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+java.lang.NullPointerException: Cannot invoke "scala.reflect.internal.Types$Type.typeSymbol()" because "tp" is null
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:426)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.08 22:15:38 INFO  compiling root (1 scala source)
+2023.07.08 22:15:38 INFO  time: compiled root in 35ms
+2023.07.08 22:15:45 INFO  compiling root (1 scala source)
+2023.07.08 22:15:45 INFO  time: compiled root in 26ms
+2023.07.08 22:15:47 INFO  compiling root (1 scala source)
+2023.07.08 22:15:47 INFO  time: compiled root in 23ms
+2023.07.08 22:16:00 INFO  compiling root (1 scala source)
+2023.07.08 22:16:00 INFO  time: compiled root in 46ms
+Jul 08, 2023 10:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19532
+2023.07.08 22:16:25 INFO  compiling root (1 scala source)
+2023.07.08 22:16:25 INFO  time: compiled root in 64ms
+2023.07.08 22:16:31 INFO  compiling root (1 scala source)
+2023.07.08 22:16:31 INFO  time: compiled root in 63ms
+2023.07.08 22:16:50 INFO  compiling root (1 scala source)
+2023.07.08 22:16:50 INFO  time: compiled root in 54ms
+2023.07.08 22:17:00 INFO  compiling root (1 scala source)
+2023.07.08 22:17:00 INFO  time: compiled root in 45ms
+2023.07.08 22:17:05 INFO  compiling root (1 scala source)
+2023.07.08 22:17:05 INFO  time: compiled root in 72ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.Payload => <error>RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1676, 1686, 1747)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.Payload => <error>RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1676, 1686, 1706)
+2023.07.08 22:18:27 INFO  compiling root (1 scala source)
+2023.07.08 22:18:27 INFO  compiling root (1 scala source)
+2023.07.08 22:18:27 INFO  time: compiled root in 0.15s
+2023.07.08 22:18:27 INFO  compiling root (1 scala source)
+2023.07.08 22:18:27 INFO  time: compiled root in 50ms
+Jul 08, 2023 10:18:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19902
+2023.07.08 22:18:35 INFO  compiling root (1 scala source)
+2023.07.08 22:18:35 INFO  time: compiled root in 58ms
+2023.07.08 22:18:35 WARN  Using indexes to guess the definition of Future
+2023.07.08 22:18:52 INFO  compiling root (1 scala source)
+2023.07.08 22:18:52 INFO  time: compiled root in 65ms
+2023.07.08 22:18:59 INFO  compiling root (1 scala source)
+2023.07.08 22:18:59 INFO  time: compiled root in 64ms
+2023.07.08 22:19:08 INFO  compiling root (1 scala source)
+2023.07.08 22:19:08 INFO  time: compiled root in 82ms
+2023.07.08 22:19:14 INFO  compiling root (1 scala source)
+2023.07.08 22:19:14 INFO  time: compiled root in 31ms
+2023.07.08 22:19:16 INFO  compiling root (1 scala source)
+2023.07.08 22:19:16 INFO  time: compiled root in 68ms
+Jul 08, 2023 10:19:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20133
+2023.07.08 22:19:23 INFO  compiling root (1 scala source)
+2023.07.08 22:19:23 INFO  time: compiled root in 86ms
+2023.07.08 22:19:25 INFO  compiling root (1 scala source)
+2023.07.08 22:19:25 INFO  time: compiled root in 43ms
+2023.07.08 22:19:29 INFO  compiling root (1 scala source)
+2023.07.08 22:19:29 INFO  time: compiled root in 50ms
+2023.07.08 22:19:29 INFO  compiling root (1 scala source)
+2023.07.08 22:19:29 INFO  time: compiled root in 38ms
+2023.07.08 22:19:35 WARN  Using indexes to guess the definition of Resource
+2023.07.08 22:19:36 INFO  compiling root (1 scala source)
+2023.07.08 22:19:36 INFO  time: compiled root in 62ms
+2023.07.08 22:19:50 WARN  Using indexes to guess the definition of P
+2023.07.08 22:19:50 INFO  compiling root (1 scala source)
+2023.07.08 22:19:50 INFO  time: compiled root in 90ms
+2023.07.08 22:19:50 INFO  compiling root (1 scala source)
+2023.07.08 22:19:50 INFO  time: compiled root in 60ms
+2023.07.08 22:19:50 INFO  compiling root (1 scala source)
+2023.07.08 22:19:50 INFO  time: compiled root in 30ms
+2023.07.09 00:20:19 INFO  compiling root (1 scala source)
+2023.07.09 00:20:19 INFO  time: compiled root in 0.16s
+2023.07.09 00:20:23 INFO  compiling root (1 scala source)
+2023.07.09 00:20:23 INFO  time: compiled root in 50ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.UsableResource[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1720, 1720, 1761)
+2023.07.09 00:20:52 INFO  compiling root (1 scala source)
+2023.07.09 00:20:52 INFO  time: compiled root in 59ms
+2023.07.09 00:21:10 INFO  compiling root (1 scala source)
+2023.07.09 00:21:10 INFO  time: compiled root in 47ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.ResourcePool[poolfacade2.CookieMap,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1788, 1788, 1820)
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in scala.concurrent.Future[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1626, 1626, 1635)
+2023.07.09 00:22:10 INFO  compiling root (1 scala source)
+2023.07.09 00:22:10 INFO  time: compiled root in 0.12s
+2023.07.09 00:22:14 INFO  compiling root (1 scala source)
+2023.07.09 00:22:14 INFO  time: compiled root in 65ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.UsableResource[P,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1739, 1739, 1765)
+2023.07.09 00:22:23 INFO  compiling root (1 scala source)
+2023.07.09 00:22:23 INFO  time: compiled root in 47ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.ResourcePool[poolfacade2.CookieMap,<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1810, 1810, 1842)
+Jul 09, 2023 12:22:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20632
+2023.07.09 00:22:33 INFO  compiling root (1 scala source)
+2023.07.09 00:22:33 INFO  time: compiled root in 56ms
+2023.07.09 00:22:40 INFO  compiling root (1 scala source)
+2023.07.09 00:22:40 INFO  time: compiled root in 69ms
+2023.07.09 00:22:42 INFO  compiling root (1 scala source)
+2023.07.09 00:22:42 INFO  time: compiled root in 55ms
+2023.07.09 00:22:46 INFO  compiling root (1 scala source)
+2023.07.09 00:22:46 INFO  time: compiled root in 76ms
+2023.07.09 00:22:56 INFO  compiling root (1 scala source)
+2023.07.09 00:22:56 INFO  time: compiled root in 91ms
+2023.07.09 00:23:01 INFO  compiling root (1 scala source)
+2023.07.09 00:23:01 INFO  time: compiled root in 33ms
+2023.07.09 00:23:22 INFO  compiling root (1 scala source)
+2023.07.09 00:23:22 INFO  time: compiled root in 44ms
+2023.07.09 00:23:32 INFO  compiling root (1 scala source)
+2023.07.09 00:23:32 INFO  time: compiled root in 51ms
+2023.07.09 00:23:40 INFO  compiling root (1 scala source)
+2023.07.09 00:23:40 INFO  time: compiled root in 40ms
+2023.07.09 00:23:44 INFO  compiling root (1 scala source)
+2023.07.09 00:23:44 INFO  time: compiled root in 25ms
+2023.07.09 00:23:59 INFO  compiling root (1 scala source)
+2023.07.09 00:23:59 INFO  time: compiled root in 25ms
+2023.07.09 00:24:04 INFO  compiling root (1 scala source)
+2023.07.09 00:24:04 INFO  time: compiled root in 31ms
+2023.07.09 00:24:17 INFO  compiling root (1 scala source)
+2023.07.09 00:24:17 INFO  time: compiled root in 35ms
+2023.07.09 00:24:34 INFO  compiling root (1 scala source)
+2023.07.09 00:24:34 INFO  time: compiled root in 69ms
+2023.07.09 00:24:39 INFO  compiling root (1 scala source)
+2023.07.09 00:24:39 INFO  time: compiled root in 52ms
+2023.07.09 00:24:44 INFO  compiling root (1 scala source)
+2023.07.09 00:24:44 INFO  time: compiled root in 68ms
+2023.07.09 00:24:58 INFO  compiling root (1 scala source)
+2023.07.09 00:24:58 INFO  time: compiled root in 73ms
+2023.07.09 00:25:21 INFO  compiling root (1 scala source)
+2023.07.09 00:25:21 INFO  time: compiled root in 44ms
+2023.07.09 00:25:25 INFO  compiling root (1 scala source)
+2023.07.09 00:25:25 INFO  time: compiled root in 51ms
+2023.07.09 00:25:37 INFO  compiling root (1 scala source)
+2023.07.09 00:25:37 INFO  time: compiled root in 66ms
+2023.07.09 00:26:27 INFO  compiling root (1 scala source)
+2023.07.09 00:26:27 INFO  time: compiled root in 49ms
+2023.07.09 00:27:22 INFO  compiling root (1 scala source)
+2023.07.09 00:27:22 INFO  time: compiled root in 56ms
+2023.07.09 00:27:27 INFO  compiling root (1 scala source)
+2023.07.09 00:27:27 INFO  time: compiled root in 48ms
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:71: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:111: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:69:30: stale bloop error: not found: type Resource
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                             ^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:24:42: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:89:27: stale bloop error: not found: type Resource
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                          ^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:76:51: stale bloop error: not enough arguments for method reserve: (job: poolfacade2.UsableResource[poolfacade2.Payload] => scala.concurrent.Future[X]): scala.concurrent.Future[X].
+Unspecified value parameter job.
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:103:31: stale bloop error: not found: type Resource
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                              ^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:71: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:111: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:69:30: stale bloop error: not found: type Resource
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                             ^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:24:42: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:89:27: stale bloop error: not found: type Resource
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                          ^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:76:51: stale bloop error: not enough arguments for method reserve: (job: poolfacade2.UsableResource[poolfacade2.Payload] => scala.concurrent.Future[X]): scala.concurrent.Future[X].
+Unspecified value parameter job.
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:39 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:103:31: stale bloop error: not found: type Resource
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                              ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:71: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:111: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:69:30: stale bloop error: not found: type Resource
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                             ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:24:42: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:89:27: stale bloop error: not found: type Resource
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                          ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:76:51: stale bloop error: not enough arguments for method reserve: (job: poolfacade2.UsableResource[poolfacade2.Payload] => scala.concurrent.Future[X]): scala.concurrent.Future[X].
+Unspecified value parameter job.
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:103:31: stale bloop error: not found: type Resource
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                              ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:71: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:111: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:69:30: stale bloop error: not found: type Resource
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                             ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:24:42: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:89:27: stale bloop error: not found: type Resource
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                          ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:76:51: stale bloop error: not enough arguments for method reserve: (job: poolfacade2.UsableResource[poolfacade2.Payload] => scala.concurrent.Future[X]): scala.concurrent.Future[X].
+Unspecified value parameter job.
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:103:31: stale bloop error: not found: type Resource
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                              ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:71: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:111: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:69:30: stale bloop error: not found: type Resource
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                             ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:24:42: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:89:27: stale bloop error: not found: type Resource
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                          ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:76:51: stale bloop error: not enough arguments for method reserve: (job: poolfacade2.UsableResource[poolfacade2.Payload] => scala.concurrent.Future[X]): scala.concurrent.Future[X].
+Unspecified value parameter job.
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:103:31: stale bloop error: not found: type Resource
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                              ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:71: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:20:111: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val resourcePoolProcessor = StatefulProcessor[PoolCommand, Option[resourcePool.ResourceType], PoolContext[resourcePool.ResourceType]] (Some(poolContext)) {
+                                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:69:30: stale bloop error: not found: type Resource
+case class InitialState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                             ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:24:42: stale bloop error: type ResourceType is not a member of poolfacade2.BspPool
+    val subscriber: EndSubscriber[Option[resourcePool.ResourceType]] = new EndSubscriber()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:89:27: stale bloop error: not found: type Resource
+case class UsedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                          ^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:76:51: stale bloop error: not enough arguments for method reserve: (job: poolfacade2.UsableResource[poolfacade2.Payload] => scala.concurrent.Future[X]): scala.concurrent.Future[X].
+Unspecified value parameter job.
+                    UsedState(subscription), Some(c.resourcePool.reserve()), true
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.07.09 00:27:41 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:103:31: stale bloop error: not found: type Resource
+case class ReleasedState[R <: Resource](subscription: Subscription) extends StatefulProcessor.State[PoolCommand, Option[R], PoolContext[R]] {
+                              ^
+2023.07.09 00:27:42 INFO  compiling root (1 scala source)
+2023.07.09 00:27:42 INFO  time: compiled root in 44ms
+2023.07.09 00:27:58 INFO  compiling root (1 scala source)
+2023.07.09 00:27:58 INFO  time: compiled root in 53ms
+2023.07.09 00:28:18 INFO  compiling root (1 scala source)
+2023.07.09 00:28:18 INFO  time: compiled root in 60ms
+2023.07.09 00:29:06 INFO  compiling root (1 scala source)
+2023.07.09 00:29:06 INFO  time: compiled root in 41ms
+2023.07.09 00:29:21 INFO  compiling root (1 scala source)
+2023.07.09 00:29:21 INFO  time: compiled root in 73ms
+2023.07.09 00:29:24 INFO  compiling root (1 scala source)
+2023.07.09 00:29:24 INFO  time: compiled root in 45ms
+2023.07.09 00:29:27 INFO  compiling root (1 scala source)
+2023.07.09 00:29:27 INFO  time: compiled root in 40ms
+2023.07.09 00:29:32 INFO  compiling root (1 scala source)
+2023.07.09 00:29:32 INFO  time: compiled root in 40ms
+2023.07.09 00:30:54 INFO  compiling root (1 scala source)
+2023.07.09 00:30:54 INFO  time: compiled root in 96ms
+Jul 09, 2023 2:22:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21316
+2023.07.09 02:22:12 INFO  compiling root (1 scala source)
+2023.07.09 02:22:12 INFO  time: compiled root in 0.11s
+2023.07.09 02:22:18 INFO  compiling root (1 scala source)
+2023.07.09 02:22:18 INFO  time: compiled root in 57ms
+2023.07.09 02:22:35 INFO  compiling root (1 scala source)
+2023.07.09 02:22:35 INFO  time: compiled root in 58ms
+2023.07.09 02:24:23 INFO  compiling root (1 scala source)
+2023.07.09 02:24:23 INFO  time: compiled root in 45ms
+2023.07.09 02:24:27 INFO  compiling root (1 scala source)
+2023.07.09 02:24:27 INFO  time: compiled root in 49ms
+2023.07.09 02:24:35 INFO  compiling root (1 scala source)
+2023.07.09 02:24:35 INFO  time: compiled root in 49ms
+2023.07.09 02:24:40 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:21: stale bloop error: not found: value UsedState
+                    UsedState(subscription), Some(), true
+                    ^^^^^^^^^
+2023.07.09 02:24:40 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:46: stale bloop error: not enough arguments for method apply: (value: A): Some[A] in object Some.
+Unspecified value parameter value.
+                    UsedState(subscription), Some(), true
+                                             ^^^^^^
+2023.07.09 02:24:40 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:21: stale bloop error: not found: value UsedState
+                    UsedState(subscription), Some(), true
+                    ^^^^^^^^^
+2023.07.09 02:24:40 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:46: stale bloop error: not enough arguments for method apply: (value: A): Some[A] in object Some.
+Unspecified value parameter value.
+                    UsedState(subscription), Some(), true
+                                             ^^^^^^
+2023.07.09 02:24:42 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:21: stale bloop error: not found: value UsedState
+                    UsedState(subscription), Some(), true
+                    ^^^^^^^^^
+2023.07.09 02:24:42 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:46: stale bloop error: not enough arguments for method apply: (value: A): Some[A] in object Some.
+Unspecified value parameter value.
+                    UsedState(subscription), Some(), true
+                                             ^^^^^^
+2023.07.09 02:24:42 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:21: stale bloop error: not found: value UsedState
+                    UsedState(subscription), Some(), true
+                    ^^^^^^^^^
+2023.07.09 02:24:42 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:80:46: stale bloop error: not enough arguments for method apply: (value: A): Some[A] in object Some.
+Unspecified value parameter value.
+                    UsedState(subscription), Some(), true
+                                             ^^^^^^
+2023.07.09 02:24:43 INFO  compiling root (1 scala source)
+2023.07.09 02:24:43 INFO  time: compiled root in 41ms
+2023.07.09 02:24:50 INFO  compiling root (1 scala source)
+2023.07.09 02:24:50 INFO  time: compiled root in 0.41s
+2023.07.09 02:25:15 INFO  compiling root (1 scala source)
+2023.07.09 02:25:15 INFO  time: compiled root in 0.37s
+2023.07.09 02:25:27 INFO  compiling root (1 scala source)
+2023.07.09 02:25:27 INFO  time: compiled root in 21ms
+2023.07.09 02:25:35 INFO  compiling root (1 scala source)
+2023.07.09 02:25:35 INFO  time: compiled root in 0.37s
+2023.07.09 02:25:44 INFO  compiling root (1 scala source)
+2023.07.09 02:25:44 INFO  time: compiled root in 0.41s
+2023.07.09 02:27:09 INFO  compiling root (1 scala source)
+2023.07.09 02:27:09 INFO  time: compiled root in 0.45s
+Jul 09, 2023 2:27:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21777
+Jul 09, 2023 2:27:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21828
+2023.07.09 02:27:39 INFO  compiling root (1 scala source)
+2023.07.09 02:27:39 INFO  time: compiled root in 25ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.UsableResource[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1762, 1762, 1783)
+2023.07.09 02:27:48 INFO  compiling root (1 scala source)
+2023.07.09 02:27:48 INFO  time: compiled root in 26ms
+2023.07.09 02:27:55 INFO  compiling root (1 scala source)
+2023.07.09 02:27:55 INFO  time: compiled root in 0.36s
+Jul 09, 2023 2:28:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22005
+2023.07.09 02:29:01 INFO  compiling root (1 scala source)
+2023.07.09 02:29:01 INFO  time: compiled root in 0.49s
+2023.07.09 02:29:04 INFO  compiling root (1 scala source)
+2023.07.09 02:29:04 INFO  time: compiled root in 0.33s
+2023.07.09 02:29:41 INFO  compiling root (1 scala source)
+2023.07.09 02:29:41 INFO  time: compiled root in 0.53s
+2023.07.09 02:29:53 INFO  compiling root (1 scala source)
+2023.07.09 02:29:53 INFO  time: compiled root in 0.78s
+2023.07.09 02:31:05 INFO  compiling root (1 scala source)
+2023.07.09 02:31:05 INFO  time: compiled root in 76ms
+2023.07.09 02:31:27 INFO  compiling root (1 scala source)
+2023.07.09 02:31:27 INFO  time: compiled root in 0.17s
+2023.07.09 02:31:27 INFO  compiling root (1 scala source)
+2023.07.09 02:31:27 INFO  time: compiled root in 10ms
+2023.07.09 02:31:38 INFO  compiling root (1 scala source)
+2023.07.09 02:31:38 INFO  time: compiled root in 36ms
+Jul 09, 2023 2:31:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22428
+2023.07.09 02:32:13 INFO  compiling root (1 scala source)
+2023.07.09 02:32:13 INFO  time: compiled root in 94ms
+2023.07.09 02:32:15 INFO  compiling root (1 scala source)
+2023.07.09 02:32:15 INFO  time: compiled root in 0.47s
+2023.07.09 02:32:28 INFO  compiling root (1 scala source)
+2023.07.09 02:32:28 INFO  time: compiled root in 0.38s
+2023.07.09 02:32:36 INFO  compiling root (1 scala source)
+2023.07.09 02:32:36 INFO  time: compiled root in 0.35s
+2023.07.09 02:32:40 INFO  compiling root (1 scala source)
+2023.07.09 02:32:40 INFO  time: compiled root in 45ms
+2023.07.09 02:32:54 INFO  compiling root (1 scala source)
+2023.07.09 02:32:54 INFO  time: compiled root in 59ms
+2023.07.09 02:36:19 INFO  compiling root (1 scala source)
+2023.07.09 02:36:19 INFO  time: compiled root in 82ms
+2023.07.09 02:36:43 INFO  compiling root (1 scala source)
+2023.07.09 02:36:43 INFO  time: compiled root in 31ms
+2023.07.09 02:36:48 INFO  compiling root (1 scala source)
+2023.07.09 02:36:48 INFO  time: compiled root in 61ms
+2023.07.09 02:39:54 INFO  compiling root (1 scala source)
+2023.07.09 02:39:54 INFO  time: compiled root in 96ms
+2023.07.09 02:39:58 INFO  compiling root (1 scala source)
+2023.07.09 02:39:58 INFO  time: compiled root in 49ms
+2023.07.09 02:40:17 INFO  compiling root (1 scala source)
+2023.07.09 02:40:17 INFO  time: compiled root in 43ms
+2023.07.09 02:40:56 INFO  compiling root (1 scala source)
+2023.07.09 02:40:56 INFO  time: compiled root in 61ms
+2023.07.09 02:41:04 INFO  compiling root (1 scala source)
+2023.07.09 02:41:04 INFO  time: compiled root in 48ms
+2023.07.09 02:41:07 INFO  compiling root (1 scala source)
+2023.07.09 02:41:07 INFO  time: compiled root in 54ms
+2023.07.09 02:41:12 INFO  compiling root (1 scala source)
+2023.07.09 02:41:12 INFO  time: compiled root in 44ms
+2023.07.09 02:41:28 INFO  compiling root (1 scala source)
+2023.07.09 02:41:28 INFO  time: compiled root in 41ms
+2023.07.09 02:41:31 INFO  compiling root (1 scala source)
+2023.07.09 02:41:31 INFO  time: compiled root in 39ms
+2023.07.09 02:41:43 INFO  compiling root (1 scala source)
+2023.07.09 02:41:43 INFO  time: compiled root in 39ms
+2023.07.09 02:41:49 INFO  compiling root (1 scala source)
+2023.07.09 02:41:49 INFO  time: compiled root in 52ms
+2023.07.09 02:41:57 INFO  compiling root (1 scala source)
+2023.07.09 02:41:57 INFO  time: compiled root in 76ms
+2023.07.09 02:41:59 INFO  compiling root (1 scala source)
+2023.07.09 02:41:59 INFO  time: compiled root in 40ms
+2023.07.09 02:42:01 INFO  compiling root (1 scala source)
+2023.07.09 02:42:01 INFO  time: compiled root in 35ms
+2023.07.09 02:42:09 INFO  compiling root (1 scala source)
+2023.07.09 02:42:09 INFO  time: compiled root in 43ms
+2023.07.09 02:42:22 INFO  compiling root (1 scala source)
+2023.07.09 02:42:22 INFO  time: compiled root in 45ms
+2023.07.09 02:42:26 INFO  compiling root (1 scala source)
+2023.07.09 02:42:26 INFO  time: compiled root in 53ms
+2023.07.09 02:42:35 INFO  compiling root (1 scala source)
+2023.07.09 02:42:35 INFO  time: compiled root in 45ms
+2023.07.09 02:42:42 INFO  compiling root (1 scala source)
+2023.07.09 02:42:42 INFO  time: compiled root in 0.4s
+2023.07.09 02:43:03 INFO  compiling root (1 scala source)
+2023.07.09 02:43:03 INFO  time: compiled root in 0.47s
+2023.07.09 02:43:10 INFO  compiling root (1 scala source)
+2023.07.09 02:43:10 INFO  time: compiled root in 0.4s
+Jul 09, 2023 2:44:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23460
+2023.07.09 02:44:51 INFO  compiling root (1 scala source)
+2023.07.09 02:44:51 INFO  time: compiled root in 0.1s
+2023.07.09 02:44:55 INFO  compiling root (1 scala source)
+2023.07.09 02:44:55 INFO  time: compiled root in 0.55s
+2023.07.09 02:45:04 INFO  compiling root (1 scala source)
+2023.07.09 02:45:04 INFO  time: compiled root in 0.44s
+2023.07.09 02:45:09 INFO  compiling root (1 scala source)
+2023.07.09 02:45:09 INFO  time: compiled root in 43ms
+2023.07.09 02:45:26 INFO  compiling root (1 scala source)
+2023.07.09 02:45:26 INFO  time: compiled root in 43ms
+2023.07.09 02:45:37 INFO  compiling root (1 scala source)
+2023.07.09 02:45:37 INFO  time: compiled root in 47ms
+2023.07.09 02:45:41 INFO  compiling root (1 scala source)
+2023.07.09 02:45:41 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.12' (since 35h 31m 16.697s)
+2023.07.09 02:45:41 INFO  compiling root (1 scala source)
+2023.07.09 02:45:41 INFO  time: compiled root in 25ms
+2023.07.09 02:45:43 INFO  compiling root (1 scala source)
+2023.07.09 02:45:43 INFO  time: compiled root in 75ms
+2023.07.09 02:45:47 INFO  compiling root (1 scala source)
+2023.07.09 02:45:47 INFO  time: compiled root in 73ms
+2023.07.09 02:48:02 INFO  compiling root (1 scala source)
+2023.07.09 02:48:02 INFO  time: compiled root in 0.15s
+2023.07.09 02:48:29 INFO  compiling root (1 scala source)
+2023.07.09 02:48:29 INFO  time: compiled root in 0.12s
+2023.07.09 02:49:13 INFO  compiling root (1 scala source)
+2023.07.09 02:49:13 INFO  time: compiled root in 30ms
+2023.07.09 02:49:47 INFO  compiling root (1 scala source)
+2023.07.09 02:49:47 INFO  time: compiled root in 45ms
+2023.07.09 02:50:21 INFO  compiling root (1 scala source)
+2023.07.09 02:50:21 INFO  time: compiled root in 58ms
+2023.07.09 02:50:49 INFO  compiling root (1 scala source)
+2023.07.09 02:50:49 INFO  time: compiled root in 27ms
+2023.07.09 02:51:04 INFO  compiling root (1 scala source)
+2023.07.09 02:51:04 INFO  time: compiled root in 49ms
+2023.07.09 02:56:51 INFO  compiling root (1 scala source)
+2023.07.09 02:56:51 INFO  time: compiled root in 0.15s
+2023.07.09 03:00:11 INFO  compiling root (1 scala source)
+2023.07.09 03:00:11 INFO  time: compiled root in 0.16s
+2023.07.09 03:00:26 INFO  compiling root (1 scala source)
+2023.07.09 03:00:26 INFO  time: compiled root in 78ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.UsableResource[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 1785, 1785, 1806)
+2023.07.09 03:03:04 INFO  compiling root (1 scala source)
+2023.07.09 03:03:04 INFO  time: compiled root in 81ms
+2023.07.09 03:03:13 INFO  compiling root (1 scala source)
+2023.07.09 03:03:13 INFO  time: compiled root in 71ms
+2023.07.09 03:03:28 INFO  compiling root (1 scala source)
+2023.07.09 03:03:28 INFO  time: compiled root in 50ms
+2023.07.09 03:03:32 INFO  compiling root (1 scala source)
+2023.07.09 03:03:32 INFO  time: compiled root in 39ms
+2023.07.09 03:04:01 INFO  compiling root (1 scala source)
+2023.07.09 03:04:01 INFO  time: compiled root in 0.15s
+2023.07.09 03:04:04 INFO  compiling root (1 scala source)
+2023.07.09 03:04:04 INFO  time: compiled root in 58ms
+2023.07.09 03:04:16 INFO  compiling root (1 scala source)
+2023.07.09 03:04:16 INFO  time: compiled root in 40ms
+2023.07.09 03:04:21 INFO  compiling root (1 scala source)
+2023.07.09 03:04:21 INFO  time: compiled root in 41ms
+2023.07.09 03:04:28 INFO  compiling root (1 scala source)
+2023.07.09 03:04:28 INFO  time: compiled root in 47ms
+2023.07.09 03:04:55 INFO  compiling root (1 scala source)
+2023.07.09 03:04:55 INFO  time: compiled root in 55ms
+2023.07.09 03:05:19 INFO  compiling root (1 scala source)
+2023.07.09 03:05:19 INFO  time: compiled root in 43ms
+2023.07.09 03:05:23 INFO  compiling root (1 scala source)
+2023.07.09 03:05:23 INFO  time: compiled root in 87ms
+2023.07.09 03:05:25 INFO  compiling root (1 scala source)
+2023.07.09 03:05:25 INFO  time: compiled root in 76ms
+Jul 09, 2023 3:05:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24909
+2023.07.09 03:05:58 INFO  compiling root (1 scala source)
+2023.07.09 03:05:58 INFO  time: compiled root in 86ms
+2023.07.09 03:06:01 INFO  compiling root (1 scala source)
+2023.07.09 03:06:01 INFO  time: compiled root in 84ms
+Jul 09, 2023 3:06:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24949
+2023.07.09 03:06:26 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:92:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.concurrent.Future[X]
+    }
+    ^
+2023.07.09 03:06:26 INFO  file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala:92:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.concurrent.Future[X]
+    }
+    ^
+2023.07.09 03:06:28 INFO  compiling root (1 scala source)
+2023.07.09 03:06:28 INFO  time: compiled root in 0.11s
+2023.07.09 03:06:35 INFO  compiling root (1 scala source)
+2023.07.09 03:06:35 INFO  time: compiled root in 48ms
+2023.07.09 03:08:47 INFO  compiling root (1 scala source)
+2023.07.09 03:08:47 INFO  time: compiled root in 0.14s
+2023.07.09 03:09:34 INFO  compiling root (1 scala source)
+2023.07.09 03:09:34 INFO  time: compiled root in 0.15s
+2023.07.09 03:09:44 INFO  compiling root (1 scala source)
+2023.07.09 03:09:44 INFO  time: compiled root in 50ms
+2023.07.09 03:09:52 INFO  compiling root (1 scala source)
+2023.07.09 03:09:52 INFO  time: compiled root in 0.52s
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala in poolfacade2.UsableResource[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala, 3315, 3315, 3354)
+2023.07.09 03:11:02 INFO  compiling root (1 scala source)
+2023.07.09 03:11:02 INFO  time: compiled root in 50ms
+2023.07.09 03:11:05 INFO  compiling root (1 scala source)
+2023.07.09 03:11:05 INFO  time: compiled root in 74ms
+2023.07.09 03:12:14 INFO  compiling root (1 scala source)
+2023.07.09 03:12:14 INFO  time: compiled root in 59ms
+2023.07.09 03:12:29 INFO  compiling root (1 scala source)
+2023.07.09 03:12:29 INFO  time: compiled root in 0.12s
+2023.07.09 03:13:02 INFO  compiling root (1 scala source)
+2023.07.09 03:13:02 INFO  time: compiled root in 0.57s
+2023.07.09 03:13:51 INFO  compiling root (1 scala source)
+2023.07.09 03:13:51 INFO  time: compiled root in 33ms
+2023.07.09 03:14:20 INFO  compiling root (1 scala source)
+2023.07.09 03:14:20 INFO  time: compiled root in 0.12s
+2023.07.09 03:14:27 INFO  compiling root (1 scala source)
+2023.07.09 03:14:27 INFO  time: compiled root in 49ms
+2023.07.09 03:14:32 INFO  compiling root (1 scala source)
+2023.07.09 03:14:32 INFO  time: compiled root in 44ms
+2023.07.09 03:14:50 INFO  compiling root (1 scala source)
+2023.07.09 03:14:50 INFO  time: compiled root in 62ms
+2023.07.09 03:15:10 INFO  compiling root (1 scala source)
+2023.07.09 03:15:10 INFO  time: compiled root in 93ms
+2023.07.09 03:15:31 INFO  compiling root (1 scala source)
+2023.07.09 03:15:31 INFO  time: compiled root in 0.13s
+2023.07.09 03:15:33 INFO  compiling root (1 scala source)
+2023.07.09 03:15:33 INFO  time: compiled root in 90ms
+2023.07.09 03:15:54 INFO  compiling root (1 scala source)
+2023.07.09 03:15:54 INFO  time: compiled root in 96ms
+2023.07.09 03:16:00 INFO  compiling root (1 scala source)
+2023.07.09 03:16:00 INFO  time: compiled root in 73ms
+2023.07.09 03:16:06 INFO  compiling root (1 scala source)
+2023.07.09 03:16:06 INFO  time: compiled root in 0.12s
+2023.07.09 03:16:12 INFO  compiling root (1 scala source)
+2023.07.09 03:16:12 INFO  time: compiled root in 43ms
+2023.07.09 03:17:47 INFO  compiling root (1 scala source)
+2023.07.09 03:17:47 INFO  time: compiled root in 0.11s
+2023.07.09 03:17:47 INFO  compiling root (1 scala source)
+2023.07.09 03:17:47 INFO  time: compiled root in 43ms
+2023.07.09 03:17:56 INFO  compiling root (1 scala source)
+2023.07.09 03:17:56 INFO  time: compiled root in 51ms
+2023.07.09 03:18:05 INFO  compiling root (1 scala source)
+2023.07.09 03:18:05 INFO  time: compiled root in 46ms
+2023.07.09 03:18:16 INFO  compiling root (1 scala source)
+2023.07.09 03:18:16 INFO  time: compiled root in 0.11s
+2023.07.09 03:18:39 INFO  compiling root (1 scala source)
+2023.07.09 03:18:39 INFO  time: compiled root in 44ms
+2023.07.09 03:18:44 INFO  compiling root (1 scala source)
+2023.07.09 03:18:44 INFO  time: compiled root in 45ms
+2023.07.09 03:18:56 INFO  compiling root (1 scala source)
+2023.07.09 03:18:56 INFO  time: compiled root in 56ms
+2023.07.09 03:19:09 INFO  compiling root (1 scala source)
+2023.07.09 03:19:09 INFO  time: compiled root in 0.12s
+2023.07.09 03:20:46 INFO  compiling root (1 scala source)
+2023.07.09 03:20:46 INFO  time: compiled root in 0.13s
+2023.07.09 03:20:57 INFO  compiling root (1 scala source)
+2023.07.09 03:20:57 INFO  time: compiled root in 48ms
+2023.07.09 03:22:35 INFO  compiling root (1 scala source)
+2023.07.09 03:22:35 INFO  time: compiled root in 0.14s
+2023.07.09 03:22:39 INFO  compiling root (1 scala source)
+2023.07.09 03:22:39 INFO  time: compiled root in 64ms
+2023.07.09 03:22:44 INFO  compiling root (1 scala source)
+2023.07.09 03:22:44 INFO  time: compiled root in 0.1s
+2023.07.09 03:22:45 WARN  Using indexes to guess the definition of Promise
+2023.07.09 03:23:11 INFO  compiling root (1 scala source)
+2023.07.09 03:23:11 INFO  time: compiled root in 0.14s
+2023.07.09 03:23:56 INFO  compiling root (1 scala source)
+2023.07.09 03:23:56 INFO  time: compiled root in 0.11s
+2023.07.09 03:23:59 INFO  compiling root (1 scala source)
+2023.07.09 03:23:59 INFO  time: compiled root in 66ms
+2023.07.09 03:24:30 INFO  compiling root (2 scala sources)
+2023.07.09 03:24:30 INFO  time: compiled root in 56ms
+2023.07.09 03:24:36 INFO  compiling root (2 scala sources)
+2023.07.09 03:24:36 INFO  time: compiled root in 48ms
+2023.07.09 03:24:40 INFO  compiling root (2 scala sources)
+2023.07.09 03:24:40 INFO  time: compiled root in 52ms
+2023.07.09 03:24:43 INFO  compiling root (2 scala sources)
+2023.07.09 03:24:43 INFO  time: compiled root in 47ms
+2023.07.09 03:25:03 INFO  compiling root (2 scala sources)
+2023.07.09 03:25:03 INFO  time: compiled root in 56ms
+2023.07.09 03:25:15 INFO  compiling root (2 scala sources)
+2023.07.09 03:25:15 INFO  time: compiled root in 51ms
+2023.07.09 03:25:47 INFO  compiling root (2 scala sources)
+2023.07.09 03:25:47 INFO  time: compiled root in 35ms
+2023.07.09 03:25:49 INFO  compiling root (2 scala sources)
+2023.07.09 03:25:49 INFO  time: compiled root in 64ms
+2023.07.09 03:26:18 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:18 INFO  time: compiled root in 73ms
+2023.07.09 03:26:20 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:20 INFO  time: compiled root in 49ms
+2023.07.09 03:26:24 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:24 INFO  time: compiled root in 50ms
+2023.07.09 03:26:30 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:30 INFO  time: compiled root in 52ms
+2023.07.09 03:26:43 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:43 INFO  time: compiled root in 53ms
+2023.07.09 03:26:48 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:48 INFO  time: compiled root in 0.49s
+2023.07.09 03:26:55 INFO  compiling root (2 scala sources)
+2023.07.09 03:26:55 INFO  time: compiled root in 46ms
+2023.07.09 03:27:14 INFO  compiling root (2 scala sources)
+2023.07.09 03:27:14 INFO  time: compiled root in 47ms
+2023.07.09 03:28:16 INFO  compiling root (2 scala sources)
+2023.07.09 03:28:16 INFO  time: compiled root in 57ms
+2023.07.09 03:28:38 INFO  compiling root (2 scala sources)
+2023.07.09 03:28:38 INFO  time: compiled root in 48ms
+2023.07.09 03:28:45 INFO  compiling root (2 scala sources)
+2023.07.09 03:28:45 INFO  time: compiled root in 53ms
+2023.07.09 03:28:51 INFO  compiling root (2 scala sources)
+2023.07.09 03:28:51 INFO  time: compiled root in 57ms
+2023.07.09 03:30:31 INFO  compiling root (2 scala sources)
+2023.07.09 03:30:31 INFO  time: compiled root in 0.17s
+2023.07.09 03:30:40 INFO  compiling root (2 scala sources)
+2023.07.09 03:30:40 INFO  time: compiled root in 75ms
+2023.07.09 03:30:51 INFO  compiling root (2 scala sources)
+2023.07.09 03:30:51 INFO  time: compiled root in 61ms
+2023.07.09 03:30:58 INFO  compiling root (2 scala sources)
+2023.07.09 03:30:58 INFO  time: compiled root in 58ms
+Jul 09, 2023 3:31:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27505
+Jul 09, 2023 3:31:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27553
+2023.07.09 03:31:16 INFO  compiling root (2 scala sources)
+2023.07.09 03:31:16 INFO  time: compiled root in 72ms
+2023.07.09 03:31:18 INFO  compiling root (2 scala sources)
+2023.07.09 03:31:18 INFO  time: compiled root in 60ms
+2023.07.09 03:31:49 INFO  compiling root (2 scala sources)
+2023.07.09 03:31:49 INFO  time: compiled root in 0.13s
+2023.07.09 03:33:24 INFO  compiling root (2 scala sources)
+2023.07.09 03:33:24 INFO  time: compiled root in 0.12s
+Jul 09, 2023 3:33:26 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 09, 2023 3:33:26 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Position.point on NoPosition
+java.lang.UnsupportedOperationException: Position.point on NoPosition
+	at scala.reflect.internal.util.Position.fail(Position.scala:24)
+	at scala.reflect.internal.util.UndefinedPosition.point(Position.scala:102)
+	at scala.reflect.internal.util.UndefinedPosition.point(Position.scala:97)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$5(PcCollector.scala:239)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$5$adapted(PcCollector.scala:239)
+	at scala.collection.immutable.Set$Set2.exists(Set.scala:204)
+	at scala.meta.internal.pc.PcCollector.isForComprehensionOwner$1(PcCollector.scala:239)
+	at scala.meta.internal.pc.PcCollector.soughtTreeFilter$1(PcCollector.scala:257)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9$adapted(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:340)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.traverseSought(PcCollector.scala:455)
+	at scala.meta.internal.pc.PcCollector.resultWithSought(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:219)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:27)
+
+Jul 09, 2023 3:33:33 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 09, 2023 3:33:33 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: Position.point on NoPosition
+java.lang.UnsupportedOperationException: Position.point on NoPosition
+	at scala.reflect.internal.util.Position.fail(Position.scala:24)
+	at scala.reflect.internal.util.UndefinedPosition.point(Position.scala:102)
+	at scala.reflect.internal.util.UndefinedPosition.point(Position.scala:97)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$5(PcCollector.scala:239)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$5$adapted(PcCollector.scala:239)
+	at scala.collection.immutable.Set$Set2.exists(Set.scala:204)
+	at scala.meta.internal.pc.PcCollector.isForComprehensionOwner$1(PcCollector.scala:239)
+	at scala.meta.internal.pc.PcCollector.soughtTreeFilter$1(PcCollector.scala:257)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.$anonfun$resultWithSought$9$adapted(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:340)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$18(PcCollector.scala:452)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:452)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$1(PcCollector.scala:293)
+	at scala.meta.internal.pc.PcCollector.$anonfun$traverseSought$10(PcCollector.scala:401)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at scala.meta.internal.pc.PcCollector.traverseWithParent$1(PcCollector.scala:401)
+	at scala.meta.internal.pc.PcCollector.traverseSought(PcCollector.scala:455)
+	at scala.meta.internal.pc.PcCollector.resultWithSought(PcCollector.scala:271)
+	at scala.meta.internal.pc.PcCollector.result(PcCollector.scala:219)
+	at scala.meta.internal.pc.PcDocumentHighlightProvider.highlights(PcDocumentHighlightProvider.scala:27)
+
+2023.07.09 03:35:57 INFO  compiling root (2 scala sources)
+2023.07.09 03:35:57 INFO  time: compiled root in 0.16s
+2023.07.09 03:36:04 INFO  compiling root (2 scala sources)
+2023.07.09 03:36:04 INFO  time: compiled root in 71ms
+2023.07.09 03:36:26 INFO  compiling root (2 scala sources)
+2023.07.09 03:36:26 INFO  time: compiled root in 65ms
+2023.07.09 03:37:04 WARN  Using indexes to guess the definition of flatten
+Jul 09, 2023 3:37:07 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: jar%3Afile%3A%2F%2F%2FUsers%2Frakadealengine%2FLibrary%2FCaches%2FCoursier%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-compiler%2F2.12.18%2Fscala-compiler-2.12.18-sources.jar%21%2Fscala%2Ftools%2Fnsc%2FGlobal.scala:20: error: ; expected but package found
+package tools
+^
+jar%3Afile%3A%2F%2F%2FUsers%2Frakadealengine%2FLibrary%2FCaches%2FCoursier%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-compiler%2F2.12.18%2Fscala-compiler-2.12.18-sources.jar%21%2Fscala%2Ftools%2Fnsc%2FGlobal.scala:20: error: ; expected but package found
+package tools
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:391)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:407)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:411)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4299)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4524)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4524)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:320)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4472)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4477)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:127)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:124)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:46)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:124)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:206)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2023.07.09 03:37:54 WARN  Using indexes to guess the definition of flatten
+2023.07.09 03:38:29 INFO  compiling root (2 scala sources)
+2023.07.09 03:38:29 INFO  time: compiled root in 0.13s
+2023.07.09 03:38:35 INFO  compiling root (2 scala sources)
+2023.07.09 03:38:35 INFO  time: compiled root in 52ms
+2023.07.09 03:38:39 INFO  compiling root (2 scala sources)
+2023.07.09 03:38:39 INFO  time: compiled root in 49ms
+2023.07.09 03:38:59 INFO  compiling root (2 scala sources)
+2023.07.09 03:38:59 INFO  time: compiled root in 56ms
+2023.07.09 03:39:07 INFO  compiling root (2 scala sources)
+2023.07.09 03:39:07 INFO  time: compiled root in 63ms
+2023.07.09 03:39:32 WARN  Using indexes to guess the definition of flatten
+2023.07.09 03:39:43 INFO  compiling root (2 scala sources)
+2023.07.09 03:39:43 INFO  time: compiled root in 90ms
+2023.07.09 03:39:52 INFO  compiling root (2 scala sources)
+2023.07.09 03:39:52 INFO  time: compiled root in 61ms
+2023.07.09 03:39:53 INFO  compiling root (2 scala sources)
+2023.07.09 03:39:53 INFO  time: compiled root in 60ms
+2023.07.09 03:40:11 INFO  compiling root (2 scala sources)
+2023.07.09 03:40:11 INFO  time: compiled root in 55ms
+2023.07.09 03:40:30 INFO  compiling root (2 scala sources)
+2023.07.09 03:40:30 INFO  time: compiled root in 59ms
+2023.07.09 03:40:39 INFO  compiling root (2 scala sources)
+2023.07.09 03:40:39 INFO  time: compiled root in 49ms
+2023.07.09 03:41:11 INFO  compiling root (2 scala sources)
+2023.07.09 03:41:11 INFO  time: compiled root in 47ms
+2023.07.09 03:42:24 INFO  compiling root (2 scala sources)
+2023.07.09 03:42:24 INFO  time: compiled root in 0.14s
+2023.07.09 03:43:27 INFO  compiling root (2 scala sources)
+2023.07.09 03:43:27 INFO  time: compiled root in 0.69s
+2023.07.09 03:43:34 INFO  compiling root (2 scala sources)
+2023.07.09 03:43:34 INFO  time: compiled root in 0.49s
+2023.07.09 03:43:44 INFO  compiling root (2 scala sources)
+2023.07.09 03:43:44 INFO  time: compiled root in 0.48s
+2023.07.09 03:44:58 INFO  compiling root (2 scala sources)
+2023.07.09 03:44:58 INFO  time: compiled root in 54ms
+2023.07.09 03:45:17 INFO  compiling root (2 scala sources)
+2023.07.09 03:45:17 INFO  time: compiled root in 51ms
+2023.07.09 03:46:39 INFO  compiling root (2 scala sources)
+2023.07.09 03:46:39 INFO  time: compiled root in 79ms
+2023.07.09 03:46:47 INFO  compiling root (2 scala sources)
+2023.07.09 03:46:47 INFO  time: compiled root in 54ms
+2023.07.09 03:46:55 INFO  compiling root (2 scala sources)
+2023.07.09 03:46:55 INFO  time: compiled root in 26ms
+2023.07.09 03:46:59 INFO  compiling root (2 scala sources)
+2023.07.09 03:46:59 INFO  time: compiled root in 57ms
+2023.07.09 03:47:21 INFO  compiling root (2 scala sources)
+2023.07.09 03:47:21 INFO  time: compiled root in 72ms
+2023.07.09 03:47:33 INFO  compiling root (2 scala sources)
+2023.07.09 03:47:33 INFO  time: compiled root in 82ms
+2023.07.09 03:47:41 INFO  compiling root (2 scala sources)
+2023.07.09 03:47:41 INFO  time: compiled root in 65ms
+2023.07.09 03:47:54 INFO  compiling root (2 scala sources)
+2023.07.09 03:47:54 INFO  time: compiled root in 91ms
+2023.07.09 03:48:04 INFO  compiling root (2 scala sources)
+2023.07.09 03:48:04 INFO  time: compiled root in 55ms
+2023.07.09 03:48:44 INFO  compiling root (2 scala sources)
+2023.07.09 03:48:44 INFO  time: compiled root in 38ms
+2023.07.09 03:48:48 INFO  compiling root (2 scala sources)
+2023.07.09 03:48:48 INFO  time: compiled root in 65ms
+2023.07.09 03:49:41 INFO  compiling root (2 scala sources)
+2023.07.09 03:49:41 INFO  time: compiled root in 27ms
+2023.07.09 03:49:44 INFO  compiling root (2 scala sources)
+2023.07.09 03:49:44 INFO  time: compiled root in 65ms
+2023.07.09 03:50:07 INFO  compiling root (2 scala sources)
+2023.07.09 03:50:07 INFO  time: compiled root in 75ms
+2023.07.09 03:50:41 INFO  compiling root (2 scala sources)
+2023.07.09 03:50:41 INFO  time: compiled root in 58ms
+2023.07.09 03:50:45 INFO  compiling root (2 scala sources)
+2023.07.09 03:50:45 INFO  time: compiled root in 62ms
+2023.07.09 03:50:50 INFO  compiling root (2 scala sources)
+2023.07.09 03:50:50 INFO  time: compiled root in 26ms
+2023.07.09 03:50:52 INFO  compiling root (2 scala sources)
+2023.07.09 03:50:52 INFO  time: compiled root in 56ms
+2023.07.09 03:51:11 INFO  compiling root (2 scala sources)
+2023.07.09 03:51:11 INFO  time: compiled root in 59ms
+2023.07.09 03:52:22 INFO  compiling root (2 scala sources)
+2023.07.09 03:52:22 INFO  time: compiled root in 0.11s
+2023.07.09 03:52:24 INFO  compiling root (2 scala sources)
+2023.07.09 03:52:24 INFO  time: compiled root in 74ms
+2023.07.09 03:53:00 INFO  compiling root (2 scala sources)
+2023.07.09 03:53:00 INFO  time: compiled root in 97ms
+2023.07.09 03:53:19 INFO  compiling root (2 scala sources)
+2023.07.09 03:53:19 INFO  time: compiled root in 0.65s
+2023.07.09 03:54:03 INFO  compiling root (1 scala source)
+2023.07.09 03:54:03 INFO  time: compiled root in 54ms
+2023.07.09 03:54:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+Jul 09, 2023 3:54:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29737
+2023.07.09 03:54:05 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:06 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:12 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:13 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:13 INFO  compiling root (1 scala source)
+2023.07.09 03:54:13 INFO  time: compiled root in 49ms
+2023.07.09 03:54:13 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:17 INFO  compiling root (1 scala source)
+2023.07.09 03:54:17 INFO  time: compiled root in 45ms
+2023.07.09 03:54:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:25 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:30 INFO  compiling root (1 scala source)
+2023.07.09 03:54:30 INFO  time: compiled root in 52ms
+2023.07.09 03:54:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:46 INFO  compiling root (1 scala source)
+2023.07.09 03:54:46 INFO  time: compiled root in 44ms
+2023.07.09 03:54:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:52 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:54:52 INFO  compiling root (1 scala source)
+2023.07.09 03:54:52 INFO  time: compiled root in 0.59s
+2023.07.09 03:55:14 INFO  compiling root (1 scala source)
+2023.07.09 03:55:14 INFO  time: compiled root in 59ms
+2023.07.09 03:55:45 INFO  compiling root (1 scala source)
+2023.07.09 03:55:45 INFO  time: compiled root in 83ms
+2023.07.09 03:55:48 INFO  compiling root (1 scala source)
+2023.07.09 03:55:48 INFO  time: compiled root in 48ms
+2023.07.09 03:55:48 INFO  compiling root (1 scala source)
+2023.07.09 03:55:48 INFO  time: compiled root in 46ms
+2023.07.09 03:55:51 INFO  compiling root (1 scala source)
+2023.07.09 03:55:51 INFO  time: compiled root in 42ms
+2023.07.09 03:56:05 INFO  compiling root (1 scala source)
+2023.07.09 03:56:05 INFO  time: compiled root in 60ms
+2023.07.09 03:56:08 INFO  compiling root (1 scala source)
+2023.07.09 03:56:08 INFO  time: compiled root in 41ms
+2023.07.09 03:56:11 INFO  compiling root (1 scala source)
+2023.07.09 03:56:11 INFO  time: compiled root in 42ms
+2023.07.09 03:56:20 INFO  compiling root (1 scala source)
+2023.07.09 03:56:20 INFO  time: compiled root in 47ms
+2023.07.09 03:56:22 INFO  compiling root (1 scala source)
+2023.07.09 03:56:22 INFO  time: compiled root in 44ms
+2023.07.09 03:56:26 INFO  compiling root (1 scala source)
+2023.07.09 03:56:26 INFO  time: compiled root in 44ms
+2023.07.09 03:56:29 INFO  compiling root (1 scala source)
+2023.07.09 03:56:29 INFO  time: compiled root in 51ms
+2023.07.09 03:56:40 INFO  compiling root (1 scala source)
+2023.07.09 03:56:40 INFO  time: compiled root in 47ms
+2023.07.09 03:56:46 INFO  compiling root (1 scala source)
+2023.07.09 03:56:46 INFO  time: compiled root in 43ms
+2023.07.09 03:56:48 INFO  compiling root (1 scala source)
+2023.07.09 03:56:48 INFO  time: compiled root in 63ms
+2023.07.09 03:57:55 INFO  compiling root (2 scala sources)
+2023.07.09 03:57:55 INFO  time: compiled root in 0.52s
+2023.07.09 03:58:13 INFO  compiling root (2 scala sources)
+2023.07.09 03:58:13 INFO  time: compiled root in 0.48s
+Jul 09, 2023 3:58:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30170
+2023.07.09 03:58:24 INFO  compiling root (2 scala sources)
+2023.07.09 03:58:24 INFO  time: compiled root in 0.63s
+2023.07.09 03:58:44 INFO  compiling root (1 scala source)
+2023.07.09 03:58:44 INFO  time: compiled root in 56ms
+2023.07.09 03:58:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:58:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:58:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:58:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 03:58:50 INFO  compiling root (1 scala source)
+2023.07.09 03:58:50 INFO  time: compiled root in 0.54s
+2023.07.09 03:59:42 INFO  compiling root (1 scala source)
+2023.07.09 03:59:42 INFO  time: compiled root in 0.58s
+2023.07.09 03:59:49 INFO  compiling root (1 scala source)
+2023.07.09 03:59:49 INFO  time: compiled root in 0.47s
+2023.07.09 04:00:06 INFO  compiling root (1 scala source)
+2023.07.09 04:00:06 INFO  time: compiled root in 0.12s
+2023.07.09 04:00:08 INFO  compiling root (1 scala source)
+2023.07.09 04:00:08 INFO  time: compiled root in 42ms
+2023.07.09 04:00:09 INFO  compiling root (1 scala source)
+2023.07.09 04:00:09 INFO  time: compiled root in 53ms
+2023.07.09 04:00:24 INFO  compiling root (1 scala source)
+2023.07.09 04:00:24 INFO  time: compiled root in 0.86s
+2023.07.09 04:00:35 INFO  compiling root (1 scala source)
+2023.07.09 04:00:35 INFO  time: compiled root in 0.47s
+2023.07.09 04:01:46 INFO  compiling root (1 scala source)
+2023.07.09 04:01:46 INFO  time: compiled root in 49ms
+2023.07.09 04:02:06 INFO  compiling root (1 scala source)
+2023.07.09 04:02:06 INFO  time: compiled root in 0.5s
+2023.07.09 04:02:09 INFO  compiling root (1 scala source)
+2023.07.09 04:02:09 INFO  time: compiled root in 0.51s
+2023.07.09 04:02:17 INFO  compiling root (1 scala source)
+2023.07.09 04:02:17 INFO  time: compiled root in 0.46s
+2023.07.09 04:02:33 INFO  compiling root (1 scala source)
+2023.07.09 04:02:33 INFO  time: compiled root in 0.5s
+2023.07.09 04:02:41 INFO  compiling root (1 scala source)
+2023.07.09 04:02:41 INFO  time: compiled root in 0.53s
+2023.07.09 04:02:44 INFO  compiling root (1 scala source)
+2023.07.09 04:02:44 INFO  time: compiled root in 0.48s
+2023.07.09 04:03:01 INFO  compiling root (1 scala source)
+2023.07.09 04:03:01 INFO  time: compiled root in 0.48s
+2023.07.09 04:03:16 INFO  compiling root (1 scala source)
+2023.07.09 04:03:16 INFO  time: compiled root in 0.42s
+2023.07.09 04:03:39 INFO  compiling root (1 scala source)
+2023.07.09 04:03:39 INFO  time: compiled root in 60ms
+2023.07.09 04:03:40 INFO  compiling root (1 scala source)
+2023.07.09 04:03:40 INFO  time: compiled root in 0.62s
+2023.07.09 04:04:14 INFO  compiling root (1 scala source)
+2023.07.09 04:04:14 INFO  time: compiled root in 0.64s
+2023.07.09 04:04:19 INFO  compiling root (1 scala source)
+2023.07.09 04:04:19 INFO  time: compiled root in 0.54s
+2023.07.09 04:04:27 INFO  compiling root (1 scala source)
+2023.07.09 04:04:27 INFO  time: compiled root in 0.91s
+2023.07.09 04:04:47 INFO  compiling root (1 scala source)
+2023.07.09 04:04:47 INFO  time: compiled root in 55ms
+2023.07.09 04:04:53 INFO  compiling root (1 scala source)
+2023.07.09 04:04:53 INFO  time: compiled root in 61ms
+2023.07.09 04:04:58 INFO  compiling root (1 scala source)
+2023.07.09 04:04:58 INFO  time: compiled root in 48ms
+2023.07.09 04:05:06 INFO  compiling root (1 scala source)
+2023.07.09 04:05:06 INFO  time: compiled root in 55ms
+Jul 09, 2023 4:05:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30937
+2023.07.09 04:05:58 INFO  compiling root (1 scala source)
+2023.07.09 04:05:58 INFO  time: compiled root in 0.11s
+2023.07.09 04:06:08 INFO  compiling root (1 scala source)
+2023.07.09 04:06:08 INFO  time: compiled root in 84ms
+2023.07.09 04:08:12 INFO  compiling root (1 scala source)
+2023.07.09 04:08:12 INFO  time: compiled root in 0.16s
+2023.07.09 04:08:41 INFO  compiling root (1 scala source)
+2023.07.09 04:08:41 INFO  time: compiled root in 0.55s
+2023.07.09 04:09:57 INFO  compiling root (1 scala source)
+2023.07.09 04:09:57 INFO  time: compiled root in 0.57s
+2023.07.09 04:10:12 INFO  compiling root (1 scala source)
+2023.07.09 04:10:12 INFO  time: compiled root in 0.53s
+2023.07.09 04:10:18 INFO  compiling root (1 scala source)
+2023.07.09 04:10:18 INFO  time: compiled root in 0.49s
+2023.07.09 04:11:08 INFO  compiling root (1 scala source)
+2023.07.09 04:11:08 INFO  time: compiled root in 0.69s
+2023.07.09 04:12:10 INFO  compiling root (1 scala source)
+2023.07.09 04:12:10 INFO  time: compiled root in 45ms
+2023.07.09 04:12:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:15 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:15 INFO  compiling root (1 scala source)
+2023.07.09 04:12:15 INFO  time: compiled root in 48ms
+2023.07.09 04:12:16 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:23 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:23 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:25 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:27 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:28 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:28 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:34 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+Jul 09, 2023 4:12:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31471
+2023.07.09 04:12:34 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:34 INFO  compiling root (1 scala source)
+2023.07.09 04:12:34 INFO  time: compiled root in 62ms
+2023.07.09 04:12:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:43 INFO  compiling root (1 scala source)
+2023.07.09 04:12:43 INFO  time: compiled root in 26ms
+2023.07.09 04:12:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:45 INFO  compiling root (1 scala source)
+2023.07.09 04:12:45 INFO  time: compiled root in 57ms
+2023.07.09 04:12:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:12:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:03 INFO  compiling root (1 scala source)
+2023.07.09 04:13:03 INFO  time: compiled root in 53ms
+2023.07.09 04:13:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:10 INFO  compiling root (1 scala source)
+2023.07.09 04:13:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:10 INFO  time: compiled root in 75ms
+2023.07.09 04:13:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:20 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:20 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade2/Main.scala
+2023.07.09 04:13:22 INFO  compiling root (1 scala source)
+2023.07.09 04:13:22 INFO  time: compiled root in 0.56s
+2023.07.09 04:13:42 INFO  compiling root (1 scala source)
+2023.07.09 04:13:42 INFO  time: compiled root in 0.55s
+2023.07.09 04:14:20 INFO  compiling root (1 scala source)
+2023.07.09 04:14:20 INFO  time: compiled root in 0.63s
+2023.07.09 04:14:26 INFO  compiling root (1 scala source)
+2023.07.09 04:14:26 INFO  time: compiled root in 0.58s
+2023.07.09 04:14:29 INFO  compiling root (1 scala source)
+2023.07.09 04:14:29 INFO  time: compiled root in 0.45s
+2023.07.09 04:14:47 INFO  compiling root (1 scala source)
+2023.07.09 04:14:47 INFO  time: compiled root in 45ms
+2023.07.09 04:14:54 INFO  compiling root (1 scala source)
+2023.07.09 04:14:54 INFO  time: compiled root in 0.52s
+2023.07.09 04:16:32 INFO  compiling root (1 scala source)
+2023.07.09 04:16:32 INFO  time: compiled root in 0.15s
+2023.07.09 04:16:35 INFO  compiling root (1 scala source)
+2023.07.09 04:16:35 INFO  time: compiled root in 48ms
+2023.07.09 04:16:54 INFO  compiling root (1 scala source)
+2023.07.09 04:16:54 INFO  time: compiled root in 65ms
+2023.07.09 04:17:04 INFO  compiling root (1 scala source)
+2023.07.09 04:17:04 INFO  time: compiled root in 58ms
+2023.07.09 04:17:10 INFO  compiling root (1 scala source)
+2023.07.09 04:17:10 INFO  time: compiled root in 59ms
+2023.07.09 04:17:28 INFO  compiling root (1 scala source)
+2023.07.09 04:17:28 INFO  time: compiled root in 94ms
+2023.07.09 04:17:49 INFO  compiling root (1 scala source)
+2023.07.09 04:17:49 INFO  time: compiled root in 79ms
+2023.07.09 04:17:58 INFO  compiling root (1 scala source)
+2023.07.09 04:17:58 INFO  time: compiled root in 0.59s
+2023.07.09 04:18:38 INFO  compiling root (1 scala source)
+2023.07.09 04:18:38 INFO  time: compiled root in 79ms
+2023.07.09 04:18:48 INFO  compiling root (1 scala source)
+2023.07.09 04:18:49 INFO  time: compiled root in 1s
+2023.07.09 04:19:05 INFO  compiling root (1 scala source)
+2023.07.09 04:19:05 INFO  time: compiled root in 0.52s
+2023.07.09 04:19:14 INFO  compiling root (1 scala source)
+2023.07.09 04:19:14 INFO  time: compiled root in 0.49s
+2023.07.09 04:19:41 INFO  compiling root (1 scala source)
+2023.07.09 04:19:41 INFO  time: compiled root in 0.54s
+2023.07.09 04:19:55 INFO  compiling root (1 scala source)
+2023.07.09 04:19:55 INFO  time: compiled root in 0.43s
+2023.07.09 04:19:57 INFO  compiling root (1 scala source)
+2023.07.09 04:19:57 INFO  time: compiled root in 0.42s
+2023.07.09 04:21:01 INFO  compiling root (1 scala source)
+2023.07.09 04:21:01 INFO  time: compiled root in 0.83s
+2023.07.09 04:21:31 INFO  compiling root (1 scala source)
+2023.07.09 04:21:31 INFO  time: compiled root in 0.44s
+2023.07.09 04:22:02 INFO  compiling root (1 scala source)
+2023.07.09 04:22:02 INFO  time: compiled root in 0.65s
+2023.07.09 04:22:06 INFO  compiling root (1 scala source)
+2023.07.09 04:22:06 INFO  time: compiled root in 0.49s
+2023.07.09 04:22:20 INFO  compiling root (1 scala source)
+2023.07.09 04:22:20 INFO  time: compiled root in 0.56s
+Jul 09, 2023 4:22:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32441
+2023.07.09 04:22:24 INFO  compiling root (1 scala source)
+2023.07.09 04:22:24 INFO  time: compiled root in 0.46s
+2023.07.09 04:22:41 INFO  compiling root (1 scala source)
+2023.07.09 04:22:41 INFO  time: compiled root in 0.63s
+2023.07.09 04:23:39 INFO  compiling root (1 scala source)
+2023.07.09 04:23:39 INFO  time: compiled root in 0.16s
+2023.07.09 04:23:42 INFO  compiling root (1 scala source)
+2023.07.09 04:23:42 INFO  time: compiled root in 0.95s
+2023.07.09 04:23:54 INFO  compiling root (1 scala source)
+2023.07.09 04:23:54 INFO  time: compiled root in 0.5s
+2023.07.09 04:24:05 INFO  compiling root (1 scala source)
+2023.07.09 04:24:05 INFO  time: compiled root in 0.48s
+2023.07.09 04:24:14 INFO  compiling root (1 scala source)
+2023.07.09 04:24:14 INFO  time: compiled root in 0.46s
+2023.07.09 04:24:19 INFO  compiling root (1 scala source)
+2023.07.09 04:24:19 INFO  time: compiled root in 0.48s
+2023.07.09 04:24:40 INFO  compiling root (1 scala source)
+2023.07.09 04:24:40 INFO  time: compiled root in 0.58s
+2023.07.09 04:24:44 INFO  compiling root (1 scala source)
+2023.07.09 04:24:44 INFO  time: compiled root in 0.48s
