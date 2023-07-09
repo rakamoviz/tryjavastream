@@ -96,7 +96,7 @@ case class InitialState[S <: Secret](subscription: Subscription)
             c.resourcePool.reserve[Unit] { resource: UsableResource[S] =>
               resource.use[Unit] { secret: S =>
                 got.success(secret)
-                actualJobCompletion.future
+                actualJobCompletion.future.map(_ => println("actualJobCompletion completed"))
               }
             }
 
