@@ -5,7 +5,7 @@ import java.util.concurrent.Flow.{
 }
 import java.util.concurrent.SubmissionPublisher
 import scala.collection.mutable.ListBuffer
-import scala.concurrent.{Future, Promise, Await}
+import scala.concurrent.{Future, Promise}
 import scala.concurrent.duration.Duration
 
 case class PoolContext[S <: Secret](

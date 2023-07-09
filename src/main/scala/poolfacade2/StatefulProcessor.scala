@@ -31,7 +31,7 @@ sealed abstract case class StatefulProcessor[I, T, C](
   def onNext(item: I): Unit = {
     state match {
       case Some(s) =>
-        Await.ready(s.handleItem(item, context), Duration.Inf).flatMap[Unit] { result => 
+        val result = Await.ready(s.handleItem(item, context), Duration.Inf).flatMap[Unit] { result => 
             submit(result.transformedItem)
             state = Some(result.nextState)
 
