@@ -3254,3 +3254,960 @@ java.lang.UnsupportedOperationException: Position.point on NoPosition
 
 2023.07.09 13:28:14 INFO  compiling root (1 scala source)
 2023.07.09 13:28:14 INFO  time: compiled root in 0.63s
+2023.07.10 13:44:58 INFO  Started: Metals version 0.11.12 in workspace '/Users/rakadealengine/Projects/tryjavastream' for client Visual Studio Code 1.79.2.
+Jul 10, 2023 1:44:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 10, 2023 1:44:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 10, 2023 1:44:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 10, 2023 1:45:01 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/rakadealengine/Projects/tryjavastream/.metals/metals (H2 2.1)
+Jul 10, 2023 1:45:01 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.011s)
+Jul 10, 2023 1:45:01 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 10, 2023 1:45:01 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.10 13:45:01 INFO  time: initialize in 3.64s
+2023.07.10 13:45:02 INFO  Attempting to connect to the build server...
+Jul 10, 2023 1:45:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.07.10 13:45:02 INFO  skipping build import with status 'Installed'
+2023.07.10 13:45:02 INFO  Bloop uses /Users/rakadealengine/.sdkman/candidates/java/17.0.6-tem defined at /Users/rakadealengine/.bloop/bloop.json
+2023.07.10 13:45:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rakadealengine/Projects/tryjavastream/.metals/bsp.trace.json or /Users/rakadealengine/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.10 13:45:03 INFO  Attempting to connect to the build server...
+2023.07.10 13:45:03 INFO  Bloop uses /Users/rakadealengine/.sdkman/candidates/java/17.0.6-tem defined at /Users/rakadealengine/.bloop/bloop.json
+2023.07.10 13:45:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/rakadealengine/Projects/tryjavastream/project/.metals/bsp.trace.json or /Users/rakadealengine/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.10 13:45:03 INFO  time: Connected to build server in 0.42s
+2023.07.10 13:45:03 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.10 13:45:04 INFO  no build target found for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala. Using presentation compiler with project's scala-library version: 2.13.10
+2023.07.10 13:45:04 INFO  time: code lens generation in 1.38s
+2023.07.10 13:45:05 INFO  no build target found for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala. Using presentation compiler with project's scala-library version: 2.13.10
+2023.07.10 13:45:06 INFO  time: code lens generation in 2.33s
+2023.07.10 13:45:07 INFO  time: indexed workspace in 3.32s
+2023.07.10 13:45:48 INFO  compiling root (1 scala source)
+2023.07.10 13:45:48 INFO  time: compiled root in 0.58s
+2023.07.10 13:45:48 INFO  compiling root (1 scala source)
+2023.07.10 13:45:48 INFO  time: compiled root in 45ms
+2023.07.10 13:46:00 INFO  compiling root (1 scala source)
+2023.07.10 13:46:00 INFO  time: compiled root in 66ms
+2023.07.10 13:46:06 INFO  compiling root (1 scala source)
+2023.07.10 13:46:06 INFO  time: compiled root in 55ms
+2023.07.10 13:46:10 INFO  compiling root (1 scala source)
+2023.07.10 13:46:10 INFO  time: compiled root in 57ms
+2023.07.10 13:46:14 INFO  compiling root (1 scala source)
+2023.07.10 13:46:14 INFO  time: compiled root in 65ms
+2023.07.10 13:46:24 INFO  compiling root (1 scala source)
+2023.07.10 13:46:24 INFO  time: compiled root in 63ms
+2023.07.10 13:46:47 INFO  compiling root (1 scala source)
+2023.07.10 13:46:47 INFO  time: compiled root in 67ms
+2023.07.10 13:46:52 INFO  compiling root (1 scala source)
+2023.07.10 13:46:52 INFO  time: compiled root in 73ms
+2023.07.10 13:47:18 INFO  compiling root (1 scala source)
+2023.07.10 13:47:18 INFO  time: compiled root in 62ms
+2023.07.10 14:04:28 INFO  compiling root (1 scala source)
+2023.07.10 14:04:28 INFO  time: compiled root in 0.2s
+2023.07.10 14:05:05 INFO  compiling root (1 scala source)
+2023.07.10 14:05:05 INFO  time: compiled root in 0.14s
+2023.07.10 14:09:13 INFO  compiling root (1 scala source)
+2023.07.10 14:09:13 INFO  time: compiled root in 0.2s
+2023.07.10 14:15:44 INFO  compiling root (1 scala source)
+2023.07.10 14:15:44 INFO  time: compiled root in 0.31s
+2023.07.10 14:15:48 INFO  compiling root (1 scala source)
+2023.07.10 14:15:48 INFO  time: compiled root in 0.12s
+2023.07.10 14:16:09 INFO  compiling root (1 scala source)
+2023.07.10 14:16:09 INFO  time: compiled root in 70ms
+2023.07.10 14:16:15 INFO  compiling root (1 scala source)
+2023.07.10 14:16:15 INFO  time: compiled root in 0.15s
+2023.07.10 14:16:23 INFO  compiling root (1 scala source)
+2023.07.10 14:16:23 INFO  time: compiled root in 76ms
+2023.07.10 14:16:35 INFO  compiling root (1 scala source)
+2023.07.10 14:16:35 INFO  time: compiled root in 86ms
+2023.07.10 14:16:52 INFO  compiling root (1 scala source)
+2023.07.10 14:16:52 INFO  time: compiled root in 0.14s
+2023.07.10 14:19:31 INFO  compiling root (1 scala source)
+2023.07.10 14:19:31 INFO  time: compiled root in 0.15s
+2023.07.10 14:19:43 INFO  compiling root (2 scala sources)
+2023.07.10 14:19:43 INFO  time: compiled root in 86ms
+2023.07.10 14:19:55 INFO  compiling root (2 scala sources)
+2023.07.10 14:19:55 INFO  time: compiled root in 69ms
+2023.07.10 14:20:10 INFO  compiling root (2 scala sources)
+2023.07.10 14:20:10 INFO  time: compiled root in 69ms
+2023.07.10 14:20:30 INFO  compiling root (2 scala sources)
+2023.07.10 14:20:30 INFO  time: compiled root in 92ms
+2023.07.10 14:20:41 INFO  compiling root (2 scala sources)
+2023.07.10 14:20:41 INFO  time: compiled root in 67ms
+2023.07.10 14:20:45 INFO  compiling root (2 scala sources)
+2023.07.10 14:20:45 INFO  time: compiled root in 61ms
+2023.07.10 14:20:53 INFO  compiling root (2 scala sources)
+2023.07.10 14:20:53 INFO  time: compiled root in 67ms
+2023.07.10 14:31:04 INFO  compiling root (2 scala sources)
+2023.07.10 14:31:04 INFO  time: compiled root in 0.2s
+2023.07.10 14:31:18 INFO  compiling root (2 scala sources)
+2023.07.10 14:31:18 INFO  time: compiled root in 59ms
+2023.07.10 14:32:29 INFO  compiling root (2 scala sources)
+2023.07.10 14:32:29 INFO  time: compiled root in 0.12s
+2023.07.10 14:32:32 INFO  compiling root (2 scala sources)
+2023.07.10 14:32:32 INFO  time: compiled root in 35ms
+2023.07.10 14:32:35 INFO  compiling root (2 scala sources)
+2023.07.10 14:32:35 INFO  time: compiled root in 57ms
+2023.07.10 14:32:37 INFO  compiling root (2 scala sources)
+2023.07.10 14:32:37 INFO  time: compiled root in 70ms
+2023.07.10 14:32:42 INFO  compiling root (2 scala sources)
+2023.07.10 14:32:42 INFO  time: compiled root in 56ms
+2023.07.10 14:32:45 INFO  compiling root (2 scala sources)
+2023.07.10 14:32:45 INFO  time: compiled root in 57ms
+Jul 10, 2023 2:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1216
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Jul 10, 2023 2:37:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1237
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 14:37:37 INFO  compiling root (2 scala sources)
+2023.07.10 14:37:37 INFO  time: compiled root in 29ms
+2023.07.10 14:37:44 INFO  compiling root (2 scala sources)
+2023.07.10 14:37:44 INFO  time: compiled root in 59ms
+2023.07.10 14:38:06 INFO  compiling root (2 scala sources)
+2023.07.10 14:38:06 INFO  time: compiled root in 34ms
+2023.07.10 14:38:11 INFO  compiling root (2 scala sources)
+2023.07.10 14:38:11 INFO  time: compiled root in 59ms
+2023.07.10 14:38:22 INFO  compiling root (2 scala sources)
+2023.07.10 14:38:22 INFO  time: compiled root in 68ms
+2023.07.10 14:38:24 INFO  compiling root (2 scala sources)
+2023.07.10 14:38:24 INFO  time: compiled root in 54ms
+2023.07.10 14:39:07 INFO  compiling root (2 scala sources)
+2023.07.10 14:39:07 INFO  time: compiled root in 91ms
+2023.07.10 14:39:19 INFO  compiling root (2 scala sources)
+2023.07.10 14:39:19 INFO  time: compiled root in 56ms
+Exception in thread "pool-6-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 14:39:20 INFO  compiling root (2 scala sources)
+2023.07.10 14:39:20 INFO  time: compiled root in 56ms
+2023.07.10 14:39:24 INFO  compiling root (2 scala sources)
+2023.07.10 14:39:24 INFO  time: compiled root in 54ms
+2023.07.10 14:39:35 INFO  compiling root (2 scala sources)
+2023.07.10 14:39:35 INFO  time: compiled root in 60ms
+2023.07.10 14:39:47 INFO  compiling root (2 scala sources)
+2023.07.10 14:39:47 INFO  time: compiled root in 61ms
+2023.07.10 15:10:20 INFO  compiling root (2 scala sources)
+2023.07.10 15:10:20 INFO  time: compiled root in 0.19s
+2023.07.10 15:11:50 INFO  compiling root (2 scala sources)
+2023.07.10 15:11:50 INFO  time: compiled root in 82ms
+2023.07.10 15:11:58 INFO  compiling root (2 scala sources)
+2023.07.10 15:11:58 INFO  time: compiled root in 89ms
+2023.07.10 15:11:58 INFO  compiling root (2 scala sources)
+2023.07.10 15:11:58 INFO  time: compiled root in 54ms
+2023.07.10 15:12:21 INFO  compiling root (2 scala sources)
+2023.07.10 15:12:21 INFO  time: compiled root in 72ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala in poolfacade3.ResourcePool[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala, 306, 306, 337)
+2023.07.10 15:12:31 INFO  compiling root (2 scala sources)
+2023.07.10 15:12:31 INFO  time: compiled root in 63ms
+2023.07.10 15:12:35 INFO  compiling root (2 scala sources)
+2023.07.10 15:12:35 INFO  time: compiled root in 0.12s
+2023.07.10 15:12:43 INFO  compiling root (2 scala sources)
+2023.07.10 15:12:43 INFO  time: compiled root in 68ms
+2023.07.10 15:12:59 INFO  compiling root (2 scala sources)
+2023.07.10 15:12:59 INFO  time: compiled root in 66ms
+2023.07.10 15:12:59 INFO  compiling root (2 scala sources)
+2023.07.10 15:12:59 INFO  time: compiled root in 41ms
+2023.07.10 15:13:03 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:03 INFO  time: compiled root in 86ms
+2023.07.10 15:13:07 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:07 INFO  time: compiled root in 65ms
+2023.07.10 15:13:18 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:18 INFO  time: compiled root in 67ms
+2023.07.10 15:13:27 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:27 INFO  time: compiled root in 63ms
+Exception in thread "pool-6-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 15:13:30 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:30 INFO  time: compiled root in 77ms
+2023.07.10 15:13:31 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:31 INFO  time: compiled root in 55ms
+2023.07.10 15:13:40 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:40 INFO  time: compiled root in 68ms
+Exception in thread "pool-6-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 15:13:48 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:48 INFO  time: compiled root in 82ms
+Exception in thread "pool-6-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 15:13:56 INFO  compiling root (2 scala sources)
+2023.07.10 15:13:56 INFO  time: compiled root in 85ms
+Jul 10, 2023 3:13:56 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2023.07.10 15:14:02 INFO  compiling root (2 scala sources)
+2023.07.10 15:14:02 INFO  time: compiled root in 90ms
+2023.07.10 16:01:15 INFO  compiling root (2 scala sources)
+2023.07.10 16:01:15 INFO  time: compiled root in 0.17s
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala in poolfacade3.UsableResource[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala, 3524, 3524, 6731)
+2023.07.10 16:02:37 INFO  compiling root (2 scala sources)
+2023.07.10 16:02:37 INFO  time: compiled root in 72ms
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala in poolfacade3.UsableResource[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala, 2756, 2756, 3457)
+2023.07.10 16:09:20 INFO  compiling root (2 scala sources)
+2023.07.10 16:09:20 INFO  time: compiled root in 0.1s
+2023.07.10 16:09:24 INFO  compiling root (2 scala sources)
+2023.07.10 16:09:24 INFO  time: compiled root in 0.15s
+2023.07.10 16:09:42 INFO  compiling root (2 scala sources)
+2023.07.10 16:09:42 INFO  time: compiled root in 63ms
+2023.07.10 16:10:00 INFO  compiling root (2 scala sources)
+2023.07.10 16:10:00 INFO  time: compiled root in 81ms
+2023.07.10 16:10:07 INFO  compiling root (2 scala sources)
+2023.07.10 16:10:07 INFO  time: compiled root in 0.1s
+2023.07.10 16:10:44 INFO  compiling root (2 scala sources)
+2023.07.10 16:10:44 INFO  time: compiled root in 72ms
+2023.07.10 16:10:56 INFO  compiling root (2 scala sources)
+2023.07.10 16:10:56 INFO  time: compiled root in 85ms
+2023.07.10 16:11:15 INFO  compiling root (2 scala sources)
+2023.07.10 16:11:15 INFO  time: compiled root in 0.14s
+Exception in thread "pool-6-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-14" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-15" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-16" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-17" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-18" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 16:13:26 INFO  compiling root (2 scala sources)
+2023.07.10 16:13:26 INFO  time: compiled root in 0.2s
+2023.07.10 16:13:29 INFO  compiling root (2 scala sources)
+2023.07.10 16:13:29 INFO  time: compiled root in 83ms
+2023.07.10 16:32:56 INFO  compiling root (2 scala sources)
+2023.07.10 16:32:56 INFO  time: compiled root in 0.15s
+2023.07.10 16:32:58 INFO  compiling root (2 scala sources)
+2023.07.10 16:32:58 INFO  time: compiled root in 65ms
+2023.07.10 16:33:03 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:03 INFO  time: compiled root in 79ms
+2023.07.10 16:33:15 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:15 INFO  time: compiled root in 88ms
+2023.07.10 16:33:17 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:17 INFO  time: compiled root in 0.11s
+Exception in thread "pool-6-thread-19" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-20" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 16:33:28 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:28 INFO  time: compiled root in 0.15s
+2023.07.10 16:33:38 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:38 INFO  time: compiled root in 31ms
+2023.07.10 16:33:38 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:38 INFO  time: compiled root in 11ms
+2023.07.10 16:33:41 INFO  compiling root (2 scala sources)
+2023.07.10 16:33:41 INFO  time: compiled root in 74ms
+2023.07.10 16:35:52 INFO  compiling root (2 scala sources)
+2023.07.10 16:35:52 INFO  time: compiled root in 0.16s
+2023.07.10 16:35:58 INFO  compiling root (2 scala sources)
+2023.07.10 16:35:58 INFO  time: compiled root in 0.14s
+2023.07.10 16:36:05 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:05 INFO  time: compiled root in 65ms
+Exception in thread "pool-6-thread-21" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-6-thread-22" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 16:36:11 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:11 INFO  time: compiled root in 89ms
+2023.07.10 16:36:25 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:25 INFO  time: compiled root in 65ms
+2023.07.10 16:36:29 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:29 INFO  time: compiled root in 77ms
+2023.07.10 16:36:34 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:34 INFO  time: compiled root in 34ms
+2023.07.10 16:36:39 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:39 INFO  time: compiled root in 76ms
+Jul 10, 2023 4:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2809
+Exception in thread "pool-6-thread-23" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 16:36:44 INFO  compiling root (2 scala sources)
+2023.07.10 16:36:44 INFO  time: compiled root in 69ms
+2023.07.10 16:37:06 INFO  compiling root (2 scala sources)
+2023.07.10 16:37:06 INFO  time: compiled root in 67ms
+2023.07.10 16:37:28 INFO  compiling root (2 scala sources)
+2023.07.10 16:37:28 INFO  time: compiled root in 70ms
+2023.07.10 16:37:34 INFO  compiling root (2 scala sources)
+2023.07.10 16:37:34 INFO  time: compiled root in 68ms
+2023.07.10 17:19:10 INFO  compiling root (2 scala sources)
+2023.07.10 17:19:10 INFO  time: compiled root in 0.13s
+2023.07.10 17:19:14 INFO  compiling root (2 scala sources)
+2023.07.10 17:19:14 INFO  time: compiled root in 55ms
+Exception in thread "pool-6-thread-24" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 17:19:36 INFO  compiling root (2 scala sources)
+2023.07.10 17:19:36 INFO  time: compiled root in 32ms
+2023.07.10 17:19:55 INFO  compiling root (2 scala sources)
+2023.07.10 17:19:55 INFO  time: compiled root in 36ms
+2023.07.10 17:20:01 INFO  compiling root (2 scala sources)
+2023.07.10 17:20:01 INFO  time: compiled root in 30ms
+2023.07.10 17:20:09 INFO  compiling root (2 scala sources)
+2023.07.10 17:20:09 INFO  time: compiled root in 31ms
+2023.07.10 17:20:11 INFO  compiling root (2 scala sources)
+2023.07.10 17:20:11 INFO  time: compiled root in 89ms
+2023.07.10 17:20:16 INFO  compiling root (2 scala sources)
+2023.07.10 17:20:16 INFO  time: compiled root in 76ms
+2023.07.10 17:20:18 INFO  compiling root (2 scala sources)
+2023.07.10 17:20:18 INFO  time: compiled root in 80ms
+2023.07.10 17:21:41 INFO  compiling root (2 scala sources)
+2023.07.10 17:21:41 INFO  time: compiled root in 65ms
+Exception in thread "pool-6-thread-25" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 17:21:44 INFO  compiling root (2 scala sources)
+2023.07.10 17:21:44 INFO  time: compiled root in 54ms
+2023.07.10 17:21:51 INFO  compiling root (2 scala sources)
+2023.07.10 17:21:51 INFO  time: compiled root in 75ms
+2023.07.10 17:21:54 INFO  compiling root (2 scala sources)
+2023.07.10 17:21:54 INFO  time: compiled root in 59ms
+2023.07.10 17:22:14 INFO  compiling root (2 scala sources)
+2023.07.10 17:22:14 INFO  time: compiled root in 0.11s
+2023.07.10 17:23:04 INFO  compiling root (2 scala sources)
+2023.07.10 17:23:04 INFO  time: compiled root in 62ms
+2023.07.10 17:23:10 INFO  compiling root (2 scala sources)
+2023.07.10 17:23:10 INFO  time: compiled root in 76ms
+2023.07.10 17:23:46 INFO  compiling root (2 scala sources)
+2023.07.10 17:23:46 INFO  time: compiled root in 68ms
+2023.07.10 17:23:52 INFO  compiling root (2 scala sources)
+2023.07.10 17:23:52 INFO  time: compiled root in 70ms
+2023.07.10 17:23:57 INFO  compiling root (2 scala sources)
+2023.07.10 17:23:57 INFO  time: compiled root in 67ms
+2023.07.10 17:24:03 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:03 INFO  time: compiled root in 75ms
+2023.07.10 17:24:04 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:04 INFO  time: compiled root in 52ms
+2023.07.10 17:24:14 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:14 INFO  time: compiled root in 68ms
+Exception in thread "pool-6-thread-26" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 17:24:16 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:16 INFO  time: compiled root in 66ms
+2023.07.10 17:24:37 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:37 INFO  time: compiled root in 0.14s
+2023.07.10 17:24:41 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:41 INFO  time: compiled root in 62ms
+2023.07.10 17:24:56 INFO  compiling root (2 scala sources)
+2023.07.10 17:24:56 INFO  time: compiled root in 58ms
+2023.07.10 17:32:03 INFO  time: code lens generation in 1.59s
+something's wrong: no file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala in scala.concurrent.Promise[<error>]RangePosition(file:///Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala, 5226, 5226, 6684)
+2023.07.10 17:32:55 INFO  compiling root (2 scala sources)
+2023.07.10 17:32:55 INFO  time: compiled root in 0.13s
+2023.07.10 17:33:09 INFO  compiling root (2 scala sources)
+2023.07.10 17:33:09 INFO  time: compiled root in 60ms
+2023.07.10 17:33:14 INFO  compiling root (2 scala sources)
+2023.07.10 17:33:14 INFO  time: compiled root in 82ms
+2023.07.10 17:33:25 INFO  compiling root (2 scala sources)
+2023.07.10 17:33:25 INFO  time: compiled root in 54ms
+2023.07.10 17:33:43 INFO  compiling root (2 scala sources)
+2023.07.10 17:33:43 INFO  time: compiled root in 63ms
+2023.07.10 17:34:10 INFO  compiling root (2 scala sources)
+2023.07.10 17:34:10 INFO  time: compiled root in 51ms
+2023.07.10 17:34:15 INFO  compiling root (2 scala sources)
+2023.07.10 17:34:15 INFO  time: compiled root in 53ms
+Jul 10, 2023 5:34:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3757
+2023.07.10 17:34:23 INFO  compiling root (2 scala sources)
+2023.07.10 17:34:23 INFO  time: compiled root in 57ms
+2023.07.10 17:34:32 INFO  compiling root (2 scala sources)
+2023.07.10 17:34:32 INFO  time: compiled root in 60ms
+2023.07.10 17:35:07 INFO  compiling root (2 scala sources)
+2023.07.10 17:35:07 INFO  time: compiled root in 0.71s
+Exception in thread "pool-6-thread-27" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 17:35:39 INFO  compiling root (2 scala sources)
+2023.07.10 17:35:39 INFO  time: compiled root in 0.61s
+2023.07.10 17:35:45 INFO  compiling root (2 scala sources)
+2023.07.10 17:35:45 INFO  time: compiled root in 0.56s
+2023.07.10 17:35:54 INFO  compiling root (2 scala sources)
+2023.07.10 17:35:54 INFO  time: compiled root in 0.56s
+2023.07.10 17:36:00 INFO  compiling root (2 scala sources)
+2023.07.10 17:36:00 INFO  time: compiled root in 0.54s
+2023.07.10 17:36:10 INFO  compiling root (2 scala sources)
+2023.07.10 17:36:10 INFO  time: compiled root in 25ms
+2023.07.10 17:36:11 INFO  compiling root (2 scala sources)
+2023.07.10 17:36:11 INFO  time: compiled root in 0.68s
+2023.07.10 17:36:11 INFO  compiling root (2 scala sources)
+2023.07.10 17:36:11 INFO  time: compiled root in 33ms
+2023.07.10 17:36:19 INFO  compiling root (2 scala sources)
+2023.07.10 17:36:19 INFO  time: compiled root in 0.61s
+2023.07.10 17:36:19 INFO  compiling root (2 scala sources)
+2023.07.10 17:36:19 INFO  time: compiled root in 30ms
+2023.07.10 17:36:57 INFO  compiling root (3 scala sources)
+2023.07.10 17:36:57 INFO  time: compiled root in 83ms
+2023.07.10 17:37:32 INFO  compiling root (3 scala sources)
+2023.07.10 17:37:32 INFO  time: compiled root in 54ms
+2023.07.10 17:37:40 INFO  compiling root (3 scala sources)
+2023.07.10 17:37:40 INFO  time: compiled root in 55ms
+2023.07.10 17:37:50 INFO  compiling root (3 scala sources)
+2023.07.10 17:37:50 INFO  time: compiled root in 32ms
+2023.07.10 17:37:54 INFO  compiling root (3 scala sources)
+2023.07.10 17:37:54 INFO  time: compiled root in 71ms
+2023.07.10 17:37:56 INFO  compiling root (3 scala sources)
+2023.07.10 17:37:56 INFO  time: compiled root in 28ms
+2023.07.10 17:37:59 INFO  compiling root (3 scala sources)
+2023.07.10 17:37:59 INFO  time: compiled root in 70ms
+2023.07.10 17:38:04 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:04 INFO  time: compiled root in 60ms
+2023.07.10 17:38:12 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:12 INFO  time: compiled root in 70ms
+2023.07.10 17:38:16 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:16 INFO  time: compiled root in 30ms
+2023.07.10 17:38:19 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:19 INFO  time: compiled root in 60ms
+2023.07.10 17:38:23 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:23 INFO  time: compiled root in 29ms
+2023.07.10 17:38:23 WARN  Using indexes to guess the definition of resourcePool
+2023.07.10 17:38:26 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:26 INFO  time: compiled root in 56ms
+2023.07.10 17:38:33 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:33 INFO  time: compiled root in 61ms
+2023.07.10 17:38:36 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:36 INFO  time: compiled root in 25ms
+2023.07.10 17:38:38 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:38 INFO  time: compiled root in 56ms
+2023.07.10 17:38:43 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:43 INFO  time: compiled root in 94ms
+2023.07.10 17:38:49 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:49 INFO  time: compiled root in 67ms
+2023.07.10 17:38:54 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:54 INFO  time: compiled root in 54ms
+2023.07.10 17:38:57 INFO  compiling root (3 scala sources)
+2023.07.10 17:38:57 INFO  time: compiled root in 25ms
+2023.07.10 17:39:00 INFO  compiling root (3 scala sources)
+2023.07.10 17:39:00 INFO  time: compiled root in 58ms
+2023.07.10 17:39:10 INFO  compiling root (3 scala sources)
+2023.07.10 17:39:10 INFO  time: compiled root in 57ms
+Jul 10, 2023 5:39:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4264
+2023.07.10 17:39:32 INFO  compiling root (3 scala sources)
+2023.07.10 17:39:32 WARN  Using indexes to guess the definition of SecretType
+2023.07.10 17:39:32 INFO  time: compiled root in 53ms
+2023.07.10 17:39:55 INFO  compiling root (3 scala sources)
+2023.07.10 17:39:55 INFO  time: compiled root in 52ms
+2023.07.10 17:40:03 INFO  compiling root (3 scala sources)
+2023.07.10 17:40:03 INFO  time: compiled root in 60ms
+2023.07.10 17:40:19 INFO  compiling root (3 scala sources)
+2023.07.10 17:40:19 INFO  time: compiled root in 68ms
+2023.07.10 17:40:35 WARN  Using indexes to guess the definition of UnreservedState
+2023.07.10 17:40:46 INFO  compiling root (3 scala sources)
+2023.07.10 17:40:46 INFO  time: compiled root in 52ms
+2023.07.10 17:41:40 INFO  compiling root (3 scala sources)
+2023.07.10 17:41:40 INFO  time: compiled root in 50ms
+2023.07.10 17:41:53 INFO  compiling root (3 scala sources)
+2023.07.10 17:41:53 INFO  time: compiled root in 53ms
+2023.07.10 17:42:24 INFO  compiling root (3 scala sources)
+2023.07.10 17:42:24 INFO  time: compiled root in 56ms
+2023.07.10 17:42:30 WARN  Using indexes to guess the definition of UnreservedState
+2023.07.10 17:42:30 INFO  compiling root (3 scala sources)
+2023.07.10 17:42:30 INFO  time: compiled root in 61ms
+2023.07.10 17:42:30 WARN  Using indexes to guess the definition of UnreservedState
+2023.07.10 18:01:08 INFO  compiling root (3 scala sources)
+2023.07.10 18:01:08 INFO  time: compiled root in 0.16s
+Exception in thread "pool-6-thread-28" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.10 18:01:08 WARN  Using indexes to guess the definition of resourcePool
+2023.07.10 18:01:09 WARN  Using indexes to guess the definition of BspPool
+2023.07.10 18:01:26 INFO  compiling root (3 scala sources)
+2023.07.10 18:01:26 INFO  time: compiled root in 64ms
+Jul 10, 2023 6:01:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4749
+2023.07.10 18:03:41 INFO  compiling root (3 scala sources)
+2023.07.10 18:03:41 INFO  time: compiled root in 57ms
+2023.07.10 18:03:48 INFO  compiling root (3 scala sources)
+2023.07.10 18:03:48 INFO  time: compiled root in 57ms
+2023.07.10 18:03:59 INFO  compiling root (3 scala sources)
+2023.07.10 18:04:00 INFO  time: compiled root in 1.76s
+2023.07.10 18:04:08 INFO  compiling root (1 scala source)
+2023.07.10 18:04:08 INFO  time: compiled root in 0.28s
+2023.07.10 18:04:47 INFO  compiling root (1 scala source)
+2023.07.10 18:04:47 INFO  time: compiled root in 0.31s
+2023.07.10 18:04:59 INFO  compiling root (1 scala source)
+2023.07.10 18:04:59 INFO  time: compiled root in 39ms
+2023.07.10 18:04:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:05:21 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:05:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:07:21 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:07:24 INFO  compiling root (1 scala source)
+2023.07.10 18:07:24 INFO  time: compiled root in 43ms
+2023.07.10 18:07:32 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:07:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:07:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:07:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:07:38 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:11:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:04 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:06 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:07 INFO  compiling root (1 scala source)
+2023.07.10 18:12:07 INFO  time: compiled root in 73ms
+2023.07.10 18:12:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:09 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:12 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:12 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:13 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:13 INFO  compiling root (1 scala source)
+2023.07.10 18:12:13 INFO  time: compiled root in 63ms
+2023.07.10 18:12:13 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:19 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:20 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:21 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:23 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:23 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:25 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:27 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:28 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:30 INFO  compiling root (1 scala source)
+2023.07.10 18:12:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:30 INFO  time: compiled root in 48ms
+2023.07.10 18:12:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:33 INFO  compiling root (1 scala source)
+2023.07.10 18:12:33 INFO  time: compiled root in 50ms
+2023.07.10 18:12:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:35 INFO  compiling root (1 scala source)
+2023.07.10 18:12:35 INFO  time: compiled root in 40ms
+2023.07.10 18:12:35 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:36 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:37 INFO  compiling root (1 scala source)
+2023.07.10 18:12:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:12:37 INFO  time: compiled root in 0.37s
+2023.07.10 18:12:45 INFO  compiling root (1 scala source)
+2023.07.10 18:12:45 INFO  time: compiled root in 0.34s
+2023.07.10 18:13:22 INFO  compiling root (1 scala source)
+2023.07.10 18:13:22 INFO  time: compiled root in 37ms
+2023.07.10 18:13:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:13:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:03 INFO  compiling root (1 scala source)
+2023.07.10 18:14:03 INFO  time: compiled root in 38ms
+2023.07.10 18:14:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:09 INFO  compiling root (1 scala source)
+2023.07.10 18:14:09 INFO  time: compiled root in 37ms
+2023.07.10 18:14:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:31 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:14:31 INFO  compiling root (1 scala source)
+2023.07.10 18:14:31 INFO  time: compiled root in 37ms
+2023.07.10 18:14:32 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:23:18 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:34 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:39 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:42 INFO  compiling root (1 scala source)
+2023.07.10 18:26:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:42 INFO  time: compiled root in 56ms
+2023.07.10 18:26:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:26:45 INFO  compiling root (1 scala source)
+2023.07.10 18:26:45 INFO  time: compiled root in 51ms
+2023.07.10 18:26:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:27:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:27:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:27:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:27:12 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:27:13 INFO  compiling root (1 scala source)
+2023.07.10 18:27:13 INFO  time: compiled root in 65ms
+2023.07.10 18:27:13 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:27:47 INFO  compiling root (2 scala sources)
+2023.07.10 18:27:47 INFO  time: compiled root in 22ms
+2023.07.10 18:27:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:27:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:27:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:27:50 INFO  compiling root (2 scala sources)
+2023.07.10 18:27:50 INFO  time: compiled root in 37ms
+2023.07.10 18:27:50 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:23 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:28:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:41 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:42 WARN  Using indexes to guess the definition of CookieMap
+2023.07.10 18:28:42 INFO  compiling root (2 scala sources)
+2023.07.10 18:28:42 INFO  time: compiled root in 32ms
+2023.07.10 18:28:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Using indexes to guess the definition of CookieMap
+2023.07.10 18:28:46 INFO  compiling root (2 scala sources)
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Using indexes to guess the definition of UsableResource
+2023.07.10 18:28:46 INFO  time: compiled root in 40ms
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:49 INFO  compiling root (2 scala sources)
+2023.07.10 18:28:49 INFO  time: compiled root in 28ms
+2023.07.10 18:28:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:28:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:28:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:28:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:28:56 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:28:58 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:28:58 INFO  compiling root (2 scala sources)
+2023.07.10 18:28:58 INFO  time: compiled root in 31ms
+2023.07.10 18:28:58 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:29:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:29:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:29:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:29:01 INFO  compiling root (2 scala sources)
+2023.07.10 18:29:01 INFO  time: compiled root in 28ms
+2023.07.10 18:29:02 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:29:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:46 INFO  compiling root (2 scala sources)
+2023.07.10 18:29:46 INFO  time: compiled root in 28ms
+2023.07.10 18:29:46 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:47 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:48 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:49 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:55 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:29:59 INFO  compiling root (2 scala sources)
+2023.07.10 18:29:59 INFO  time: compiled root in 50ms
+2023.07.10 18:29:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 18:30:00 INFO  compiling root (1 scala source)
+2023.07.10 18:30:00 INFO  time: compiled root in 47ms
+2023.07.10 18:30:04 INFO  compiling root (2 scala sources)
+2023.07.10 18:30:04 INFO  time: compiled root in 55ms
+2023.07.10 18:30:07 INFO  compiling root (2 scala sources)
+2023.07.10 18:30:07 INFO  time: compiled root in 49ms
+2023.07.10 18:30:10 INFO  compiling root (2 scala sources)
+2023.07.10 18:30:10 INFO  time: compiled root in 48ms
+2023.07.10 18:30:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:31:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 18:31:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:08:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:09:16 INFO  compiling root (1 scala source)
+2023.07.10 19:09:16 INFO  time: compiled root in 0.14s
+2023.07.10 19:09:38 INFO  compiling root (2 scala sources)
+2023.07.10 19:09:38 INFO  time: compiled root in 60ms
+2023.07.10 19:09:42 INFO  compiling root (2 scala sources)
+2023.07.10 19:09:42 INFO  time: compiled root in 86ms
+2023.07.10 19:09:53 INFO  compiling root (2 scala sources)
+2023.07.10 19:09:53 INFO  time: compiled root in 68ms
+2023.07.10 19:10:02 INFO  compiling root (2 scala sources)
+2023.07.10 19:10:02 INFO  time: compiled root in 58ms
+2023.07.10 19:10:09 INFO  compiling root (2 scala sources)
+2023.07.10 19:10:09 INFO  time: compiled root in 60ms
+2023.07.10 19:10:34 INFO  compiling root (2 scala sources)
+2023.07.10 19:10:34 INFO  time: compiled root in 50ms
+2023.07.10 19:10:44 INFO  compiling root (2 scala sources)
+2023.07.10 19:10:44 INFO  time: compiled root in 52ms
+2023.07.10 19:10:51 INFO  compiling root (2 scala sources)
+2023.07.10 19:10:51 INFO  time: compiled root in 59ms
+2023.07.10 19:10:56 INFO  compiling root (2 scala sources)
+2023.07.10 19:10:56 INFO  time: compiled root in 52ms
+2023.07.10 19:13:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:13:00 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:13:08 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:13:10 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:13:10 INFO  compiling root (2 scala sources)
+2023.07.10 19:13:10 INFO  time: compiled root in 75ms
+2023.07.10 19:13:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:13:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:14:44 INFO  compiling root (3 scala sources)
+2023.07.10 19:14:44 INFO  time: compiled root in 55ms
+2023.07.10 19:14:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:26 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:26 WARN  Using indexes to guess the definition of transformedItem
+2023.07.10 19:15:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:37 INFO  compiling root (3 scala sources)
+2023.07.10 19:15:37 INFO  time: compiled root in 59ms
+2023.07.10 19:15:37 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:15:51 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:01 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:03 INFO  compiling root (3 scala sources)
+2023.07.10 19:16:03 INFO  time: compiled root in 0.11s
+2023.07.10 19:16:03 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:20 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:27 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:29 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:30 INFO  compiling root (3 scala sources)
+2023.07.10 19:16:30 INFO  time: compiled root in 57ms
+2023.07.10 19:16:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:16:57 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:17:15 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:17:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:42 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:43 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:44 INFO  compiling root (3 scala sources)
+2023.07.10 19:17:44 INFO  time: compiled root in 63ms
+2023.07.10 19:17:44 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:44 INFO  compiling root (3 scala sources)
+2023.07.10 19:17:45 INFO  time: compiled root in 43ms
+2023.07.10 19:17:45 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:17:57 INFO  compiling root (3 scala sources)
+2023.07.10 19:17:57 INFO  time: compiled root in 53ms
+2023.07.10 19:17:59 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:18:06 INFO  compiling root (3 scala sources)
+2023.07.10 19:18:06 INFO  time: compiled root in 56ms
+2023.07.10 19:18:07 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:18:19 INFO  compiling root (3 scala sources)
+2023.07.10 19:18:19 INFO  time: compiled root in 69ms
+2023.07.10 19:18:25 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:18:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:18:30 INFO  compiling root (3 scala sources)
+2023.07.10 19:18:30 INFO  time: compiled root in 53ms
+2023.07.10 19:18:30 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:18:33 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/StatefulProcessor.scala
+2023.07.10 19:18:34 INFO  compiling root (3 scala sources)
+2023.07.10 19:18:34 INFO  time: compiled root in 0.69s
+2023.07.10 19:18:54 INFO  compiling root (1 scala source)
+2023.07.10 19:18:54 INFO  time: compiled root in 0.38s
+2023.07.10 19:19:13 INFO  compiling root (1 scala source)
+2023.07.10 19:19:13 INFO  time: compiled root in 23ms
+2023.07.10 19:19:13 INFO  compiling root (1 scala source)
+2023.07.10 19:19:14 INFO  time: compiled root in 0.3s
+2023.07.10 19:19:17 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:19:17 INFO  compiling root (1 scala source)
+2023.07.10 19:19:17 INFO  time: compiled root in 0.3s
+2023.07.10 19:19:20 INFO  compiling root (1 scala source)
+2023.07.10 19:19:20 INFO  time: compiled root in 0.29s
+2023.07.10 19:19:24 INFO  compiling root (1 scala source)
+2023.07.10 19:19:24 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:19:24 INFO  time: compiled root in 0.27s
+2023.07.10 19:19:53 INFO  compiling root (1 scala source)
+2023.07.10 19:19:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 19:19:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 19:19:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 19:19:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 19:19:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 19:19:53 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Pool.scala
+2023.07.10 19:19:53 INFO  time: compiled root in 0.54s
+2023.07.10 19:19:59 INFO  compiling root (1 scala source)
+2023.07.10 19:19:59 INFO  time: compiled root in 0.33s
+2023.07.10 19:20:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:20:22 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:20:22 INFO  compiling root (1 scala source)
+2023.07.10 19:20:22 INFO  time: compiled root in 0.33s
+Jul 10, 2023 7:20:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7064
+2023.07.10 19:20:29 INFO  compiling root (1 scala source)
+2023.07.10 19:20:29 INFO  time: compiled root in 0.31s
+2023.07.10 19:20:34 INFO  compiling root (1 scala source)
+2023.07.10 19:20:34 INFO  time: compiled root in 0.3s
+2023.07.10 19:20:48 INFO  compiling root (1 scala source)
+2023.07.10 19:20:48 INFO  time: compiled root in 39ms
+2023.07.10 19:20:49 INFO  compiling root (1 scala source)
+2023.07.10 19:20:49 INFO  time: compiled root in 0.32s
+2023.07.10 19:21:03 INFO  compiling root (1 scala source)
+2023.07.10 19:21:03 INFO  time: compiled root in 0.39s
+2023.07.10 19:21:11 INFO  compiling root (1 scala source)
+2023.07.10 19:21:11 WARN  Could not load snapshot text for /Users/rakadealengine/Projects/tryjavastream/src/main/scala/poolfacade3/Main.scala
+2023.07.10 19:21:11 INFO  time: compiled root in 0.3s
+2023.07.10 19:21:17 INFO  compiling root (1 scala source)
+2023.07.10 19:21:17 INFO  time: compiled root in 0.34s
+2023.07.10 19:21:20 INFO  compiling root (1 scala source)
+2023.07.10 19:21:20 INFO  time: compiled root in 0.3s
+2023.07.10 19:21:21 INFO  compiling root (1 scala source)
+2023.07.10 19:21:21 INFO  time: compiled root in 0.6s
+2023.07.10 19:21:59 INFO  compiling root (1 scala source)
+2023.07.10 19:21:59 INFO  time: compiled root in 0.52s
+2023.07.10 19:25:52 INFO  compiling root (1 scala source)
+2023.07.10 19:25:52 INFO  time: compiled root in 0.68s
+2023.07.10 19:27:22 INFO  Shutting down server
+2023.07.10 19:27:22 INFO  shutting down Metals
+2023.07.10 19:27:22 INFO  Shut down connection with build server.
+2023.07.10 19:27:22 INFO  Shut down connection with build server.
+2023.07.10 19:27:22 INFO  Exiting server
